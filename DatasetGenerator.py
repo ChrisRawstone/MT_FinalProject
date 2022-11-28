@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-numberOfSentences=1000
+numberOfSentences=100
 
 # Read in danish and english sentence pairs (first 10 sentences)
 danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:numberOfSentences]
@@ -43,7 +43,7 @@ npDan=df["Danish"].to_numpy()
 npEng=df["English"].to_numpy()
 
 # Populating the file with correct line separation
-f = open("data//traindata.txt", "w", encoding='utf-8')
+f = open("data/traindata.txt", "w", encoding='utf-8')
 for sentenceNumber in range(npDan.size):
     f.write(f"{npDan[sentenceNumber]}|||{npEng[sentenceNumber]}\n")
 

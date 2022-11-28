@@ -129,3 +129,7 @@ dmypy.json
 .pyre/
 europarl-v7da.txt
 europarl-v7en.txt
+
+
+.idea/
+.idea
