@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+europarl-v7da.txt
+europarl-v7en.txt
