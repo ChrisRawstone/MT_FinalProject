@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-numberOfSentences=10000
+numberOfSentences=100
 
 # Read in danish and english sentence pairs (first 10 sentences)
 danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:numberOfSentences]
