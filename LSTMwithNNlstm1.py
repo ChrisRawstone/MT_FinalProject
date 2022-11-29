@@ -487,11 +487,9 @@ def main():
                 print("Iter:", step, "/", len(train_pairs), "Epoch:",epoch)
                 print_loss_avg = print_loss_total / print_every
                 print_loss_total = 0
-                logging.info('time since start:%s (iter:%d iter/n_iters:%d%%) loss_avg:%.4f',
-                             time.time() - start,
-                             step,
-                             step / totalsteps * 100,
-                             print_loss_avg)
+                temptime=time.time() - start
+                print(f'time since start:{temptime:.2f} s')
+
                 # translate from the dev set
                 translate_random_sentence(encoder, decoder, dev_pairs, src_vocab, tgt_vocab, n=2)
                 translated_sentences = translate_sentences(encoder, decoder, dev_pairs, src_vocab, tgt_vocab)
