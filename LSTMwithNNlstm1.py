@@ -50,7 +50,7 @@ EOS_token = "<EOS>"
 
 SOS_index = 0
 EOS_index = 1
-MAX_LENGTH = 200
+MAX_LENGTH = 45
 
 
 class Vocab:
@@ -412,7 +412,6 @@ def main():
         src_vocab = state['src_vocab']
         tgt_vocab = state['tgt_vocab']
     else:
-        iter_num = 0
         src_vocab, tgt_vocab = make_vocabs(src_lang,tgt_lang,train_file)
 
     encoder = EncoderRNN(src_vocab.n_words, hidden_size).to(device)
@@ -444,51 +443,42 @@ def main():
 
 
     # Use nn.pad sequenec
+    epochnum = 2
+    for epoch in range(epochnum):
 
-    while epoch_num < n_iters:
+        step = 0
+        while step+1 < len(train_pairs):
+            # selectedTrainPair = random.choice(train_pairs)
+            training_pair = tensors_from_pair(src_vocab, tgt_vocab, train_pairs[step])
+            step += 1
+            input_tensor = training_pair[0]
+            target_tensor = training_pair[1]
+            loss = train(input_tensor, target_tensor, encoder,
+                         decoder, optimizer, criterion)
+            # loss = train(batchOfTwoInput, batchOfTwoOutput, encoder,
+            #              decoder, optimizer, criterion)
+            print_loss_total += loss
 
-        for elt in train
-        iter_num += 1
-        selectedTrainPair=random.choice(train_pairs)
-        training_pair = tensors_from_pair(src_vocab, tgt_vocab, selectedTrainPair)
-        input_tensor = training_pair[0]
-        target_tensor = training_pair[1]
-        loss = train(input_tensor, target_tensor, encoder,
-                     decoder, optimizer, criterion)
-        # loss = train(batchOfTwoInput, batchOfTwoOutput, encoder,
-        #              decoder, optimizer, criterion)
-        print_loss_total += loss
 
-        if iter_num % checkpoint_every == 0:
-            state = {'iter_num': iter_num,
-                     'enc_state': encoder.state_dict(),
-                     'dec_state': decoder.state_dict(),
-                     'opt_state': optimizer.state_dict(),
-                     'src_vocab': src_vocab,
-                     'tgt_vocab': tgt_vocab,
-                     }
-            filename = 'state_%010d.pt' % iter_num
-            torch.save(state, filename)
-            logging.debug('wrote checkpoint to %s', filename)
 
-        if iter_num % print_every == 0:
-            print("Iter:", iter_num, "/", n_iters)
-            print_loss_avg = print_loss_total / print_every
-            print_loss_total = 0
-            logging.info('time since start:%s (iter:%d iter/n_iters:%d%%) loss_avg:%.4f',
-                         time.time() - start,
-                         iter_num,
-                         iter_num / n_iters * 100,
-                         print_loss_avg)
-            # translate from the dev set
-            translate_random_sentence(encoder, decoder, dev_pairs, src_vocab, tgt_vocab, n=2)
-            translated_sentences = translate_sentences(encoder, decoder, dev_pairs, src_vocab, tgt_vocab)
+            if step % print_every == 0:
+                print("Iter:", step, "/", len(train_pairs), "Epoch:",epoch)
+                print_loss_avg = print_loss_total / print_every
+                print_loss_total = 0
+                logging.info('time since start:%s (iter:%d iter/n_iters:%d%%) loss_avg:%.4f',
+                             time.time() - start,
+                             step,
+                             step / n_iters * 100,
+                             print_loss_avg)
+                # translate from the dev set
+                translate_random_sentence(encoder, decoder, dev_pairs, src_vocab, tgt_vocab, n=2)
+                translated_sentences = translate_sentences(encoder, decoder, dev_pairs, src_vocab, tgt_vocab)
 
-            references = [[clean(pair[1]).split(), ] for pair in dev_pairs[:len(translated_sentences)]]
-            candidates = [clean(sent).split() for sent in translated_sentences]
-            dev_bleu = corpus_bleu(references, candidates)
-            print('Dev BLEU score: %.2f', dev_bleu)
-            # logging.info('Dev BLEU score: %.2f', dev_bleu)
+                references = [[clean(pair[1]).split(), ] for pair in dev_pairs[:len(translated_sentences)]]
+                candidates = [clean(sent).split() for sent in translated_sentences]
+                dev_bleu = corpus_bleu(references, candidates)
+                print('Dev BLEU score: %.2f', dev_bleu)
+                # logging.info('Dev BLEU score: %.2f', dev_bleu)
 
     # translate test set and write to file
     translated_sentences = translate_sentences(encoder, decoder, test_pairs, src_vocab, tgt_vocab)

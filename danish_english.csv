@@ -1,30 +1,848 @@
-,,,,,,,,,,
-Index,Danish,English,Da_ARI,En_ARI,Avg_ARI,,,,,
-5,Jeg opfordrer Dem til stående at iagttage et minuts stilhed.,"Please rise, then, for this minute' s silence.",7.591,5.53125,6.561125,,,,,
-3,De har udtrykt ønske om en debat om dette emne i løbet af mødeperioden.,"You have requested a debate on this subject in the course of the next few days, during this part-session.",5.082857143,9.636842105,7.359849624,,,,,
-6,(Parlamentet iagttog stående et minuts stilhed,(The House rose and observed a minute' s silence),13.755,4.526666667,9.140833333,,,,,
-8,Gennem pressen og tv vil De være bekendt med en række bombeeksplosioner og drab i Sri Lanka.,You will be aware from the press and television that there have been a number of bomb explosions and killings in Sri Lanka.,8.126470588,10.75304348,9.439757033,,,,,
-7,"Fru formand, en bemærkning til forretningsordenen.","Madam President, on a point of order.",16.895,2.928571429,9.911785714,,,,,
-0,Genoptagelse af sessionen,Resumption of the session,16.18,6.475,11.3275,,,,,
-9,"En af de personer, der blev myrdet for ganske nylig i Sri Lanka, var hr. Kumar Ponnambalam, der besøgte Europa-Parlamentet for få måneder siden.","One of the people assassinated very recently in Sri Lanka was Mr Kumar Ponnambalam, who had visited the European Parliament just a few months ago.",14.31625,14.0548,14.185525,,,,,
-2,"Som De kan se, indfandt det store ""år 2000-problem"" sig ikke. Til gengæld har borgerne i en del af medlemslandene været ramt af meget forfærdelige naturkatastrofer.","Although, as you will have seen, the dreaded 'millennium bug' failed to materialise, still the people in a number of countries suffered a series of natural disasters that truly were dreadful.",16.75038462,18.5316129,17.64099876,,,,,
-1,"Jeg erklærer Europa-Parlamentets session, der blev afbrudt fredag den 17. december, for genoptaget. Endnu en gang vil jeg ønske Dem godt nytår, og jeg håber, De har haft en god ferie.","I declare resumed the session of the European Parliament adjourned on Friday 17 December 1999, and I would like once again to wish you a happy new year in the hope that you enjoyed a pleasant festive period.",17.31612903,18.64105263,17.97859083,,,,,
-4,"I mellemtiden ønsker jeg - som også en del kolleger har anmodet om - at vi iagttager et minuts stilhed til minde om ofrene for bl.a. stormene i de medlemslande, der blev ramt.","In the meantime, I should like to observe a minute' s silence, as a number of Members have requested, on behalf of all the victims concerned, particularly those of the terrible storms, in the various countries of the European Union.",15.48,21.29575,18.387875,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,City1,City2,Miles,miles in interval,,,Car make,co2/mile,mile in interval,total co2
-,,,9.5,10,,,,a,10,10*a
-,,,15,20,,,,b,20,
-,,,25,30,,,,,30,
-,,,,40,,,,,40,
-,,,,20,,,,,50,
+,Danish,English,Da_ARI,En_ARI,Avg_ARI
+5024,Kan De?,Can you?,-6.300000000000001,-3.9450000000000003,-5.1225000000000005
+5111,Det er punkt 9.,I refer to point 9.,-5.300000000000001,-4.800000000000001,-5.050000000000001
+5951,Det er vi med på.,That it is what we are doing.,-6.683999999999999,-2.4542857142857173,-4.569142857142858
+1473,Nej.,No.,-2.09,-6.800000000000001,-4.445
+2223,Hvad skal vi så gøre nu?,So what are we to do now?,-3.5150000000000006,-5.145714285714284,-4.330357142857142
+7696,Det er ikke en kvote!,It is not a quota!,-2.9160000000000004,-5.742000000000001,-4.329000000000001
+9560,Hvem er det?,So who is this then?,-4.229999999999997,-3.857999999999997,-4.043999999999997
+2225,Hvad skal vi gøre nu?,What are we to do now?,-2.9160000000000004,-5.085000000000001,-4.000500000000001
+7565,Vi kan løse det.,We can deal with it.,-4.122500000000002,-3.857999999999997,-3.9902499999999996
+2294,I dag er de langt væk.,By now they are far away.,-5.085000000000001,-2.729999999999997,-3.907499999999999
+5984,Det er godt.,That is all to the good.,-4.229999999999997,-3.5150000000000006,-3.8724999999999987
+1414,Det er vi alle enige i.,We all agree on this.,-4.300000000000001,-2.9160000000000004,-3.6080000000000005
+1949,I 1996 var det steget til 50%.,In 1996 it was 50%.,-1.7814285714285738,-4.800000000000001,-3.2907142857142873
+7485,Det mener jeg ikke.,I do not think so.,-0.5899999999999999,-5.742000000000001,-3.1660000000000004
+9915,"Nej, det gør det ikke!","No, it does not!",-1.9740000000000002,-4.122500000000002,-3.0482500000000012
+2169,Og nu Erika.,And now the Erika.,-4.229999999999997,-1.7674999999999983,-2.9987499999999976
+3403,Også den har vi fået.,This is in place too.,-2.9160000000000004,-2.9160000000000004,-2.9160000000000004
+3405,Også det har de gjort.,It did this as well.,-1.9740000000000002,-3.857999999999997,-2.9159999999999986
+1657,Jeg tror det ikke.,I do not believe so.,-1.7674999999999983,-3.857999999999997,-2.8127499999999976
+9389,Men intet er tabt.,But all is not lost.,-1.7674999999999983,-3.857999999999997,-2.8127499999999976
+4131,Sådan kan det gå.,Such is life.,-2.9450000000000003,-2.66,-2.8025
+2515,"Jeg har en kopi, hvis De vil se det.",I can show you a copy if you wish.,-2.2766666666666637,-3.323333333333334,-2.799999999999999
+6968,Gør vi nok?,Are we doing enough?,-5.800000000000001,0.5874999999999986,-2.606250000000001
+7161,Er det for tung en byrde?,Is this too much of a burden?,-2.729999999999997,-2.4542857142857173,-2.592142857142857
+4628,I 1998 havde vi 55 mord.,"In 1998, we had 55 murders.",-3.5150000000000006,-1.1600000000000001,-2.3375000000000004
+3459,Det er vi nødt til at råde bod på.,We have to remedy that.,-3.323333333333334,-1.032,-2.177666666666667
+9336,Vi må få sat gang i den debat.,We need to open that debate.,-3.8887500000000017,-0.375,-2.131875000000001
+3457,Vi er nødt til at få dette på plads.,We have to get this right.,-2.2766666666666637,-1.9450000000000003,-2.110833333333332
+6840,Save,SAVE,-2.09,-2.09,-2.09
+196,Det er på sin vis ærgerligt.,"This is a pity, in a sense.",-0.375,-3.8000000000000007,-2.0875000000000004
+3196,Har vi nogle tal?,Do we have any figures?,-2.9450000000000003,-1.032,-1.9885000000000002
+7502,Det er lykkedes hos os.,It worked for us.,-1.032,-2.9450000000000003,-1.9885000000000002
+5682,Han er en farlig mand.,He is a dangerous man.,-1.9740000000000002,-1.9740000000000002,-1.9740000000000002
+9655,Hold op med at lyve.,Tell the truth for once.,-3.857999999999997,-0.08999999999999986,-1.9739999999999984
+9919,Det har De nemlig ikke!,"No, you have not done so.",-1.032,-2.729999999999997,-1.8809999999999985
+600,Og nu til indholdet.,Now to the form.,0.5874999999999986,-4.122500000000002,-1.7675000000000018
+5721,Det er vores pligt.,That is our duty.,-0.5899999999999999,-2.9450000000000003,-1.7675
+3743,Lad os være ærlige.,Let us be honest.,-0.5899999999999999,-2.9450000000000003,-1.7675
+3870,Where is the beef?,Where is the beef?,-1.7674999999999983,-1.7674999999999983,-1.7674999999999983
+88,Vi stemte derefter om det.,We then put it to a vote.,1.7940000000000005,-5.145714285714284,-1.6758571428571418
+3899,Den har meget få.,They have very little of it.,-2.9450000000000003,-0.375,-1.6600000000000001
+6410,Nu har de forstået EU.,"They have now got to grips with ""EU"" .",-1.9740000000000002,-1.2299999999999969,-1.6019999999999985
+131,Dette er ikke for meget forlangt.,It is not a lot to ask.,3.5500000000000007,-6.491428571428573,-1.470714285714286
+1332,Og til hvad nytte?,With what aim?,-1.7674999999999983,-1.0899999999999999,-1.428749999999999
+9341,"Det er sådan, det skal være.",That is the way it should be.,-0.375,-2.4542857142857173,-1.4146428571428586
+2793,"Det er det ord, jeg taler om.",That is the one word I am talking about.,-2.4542857142857173,-0.18333333333333357,-1.3188095238095254
+2865,Den skal være kendt.,It must be known.,0.5874999999999986,-2.9450000000000003,-1.1787500000000009
+5274,Det er blevet klart!,We all know that!,0.5874999999999986,-2.9450000000000003,-1.1787500000000009
+8656,Det er ikke rigtigt!,This is not the case!,0.5874999999999986,-2.9160000000000004,-1.164250000000001
+138,Jeg stemte for.,"My vote was ""in favour"" .",0.4800000000000004,-2.729999999999997,-1.1249999999999982
+5031,Jeg beder Dem fatte Dem i korthed.,I would ask him to be brief.,0.9100000000000001,-3.1271428571428572,-1.1085714285714285
+7992,Det tilkommer ikke EU.,It has no right to do so.,2.942499999999999,-5.145714285714284,-1.1016071428571426
+2202,En stor tak for det.,Many thanks for this.,-3.857999999999997,1.7650000000000006,-1.0464999999999982
+1785,"2, og 138, stk. 4.",These are both about voting.,-5.742000000000001,3.678000000000001,-1.032
+4351,Det tror vi. Det vil vi tro.,We really hope and believe so.,-3.1271428571428572,1.1950000000000003,-0.9660714285714285
+5972,Der er rigelig tid.,There is time.,-0.5899999999999999,-1.0899999999999999,-0.8399999999999999
+8866,"Vi må handle nu, inden det er for sent.","We have to act now, before it is too late.",-0.706666666666667,-0.8870000000000005,-0.7968333333333337
+5664,Og det er ikke et tilfælde.,And this is not pure chance.,-1.1600000000000001,-0.375,-0.7675000000000001
+147,De råbte mig heller ikke op.,You did not call me either.,-0.375,-1.1600000000000001,-0.7675000000000001
+1562,Vi er nødt til at gøre noget ved det.,We need to do something about it.,-1.7533333333333303,0.23714285714285666,-0.7580952380952368
+3169,Det sker ikke så tit.,This is not the usual state of affairs.,-2.9160000000000004,1.4100000000000001,-0.7530000000000001
+136,Tak.,Thank you very much.,-2.09,0.5874999999999986,-0.7512500000000006
+815,"Mange tak, hr.","Thank you very much, Mr Cox.",-1.0899999999999999,-0.375,-0.7324999999999999
+6623,Det er efter min mening godt.,I believe that is a good thing,0.41000000000000014,-1.7814285714285738,-0.6857142857142868
+2619,Den var meget lille.,It was very small.,0.5874999999999986,-1.7674999999999983,-0.5899999999999999
+2752,Dette er en vigtig opgave.,This is a major task.,1.7940000000000005,-2.9160000000000004,-0.5609999999999999
+5315,"Jeg tror, han har ret.",I think that he is correct in this regard.,-1.9740000000000002,0.8633333333333333,-0.5553333333333335
+62,"Vi ved ikke, hvad der sker.",We do not know what is happening.,-1.1600000000000001,0.23714285714285666,-0.46142857142857174
+5957,Men det vil vi tale om en anden dag.,We will talk about this on another day.,-2.2766666666666637,1.4100000000000001,-0.4333333333333318
+7903,Det er nødvendigt at sige det!,This needs to be said!,1.1950000000000003,-1.9740000000000002,-0.38949999999999996
+1679,Og hvad skal der så ske?,And what exactly should be done?,-3.5150000000000006,2.7650000000000006,-0.375
+5698,Hvem kan nu ønske sig det?,Who would want this to happen?,-1.9450000000000003,1.1950000000000003,-0.375
+150,"Cox, jeg så ikke, at De anmodede om ordet.",I did not see you asking to speak.,0.8633333333333333,-1.5337499999999977,-0.3352083333333322
+6080,Det kommer vi jo også til at tale videre om.,There is more to be said on that score.,0.054999999999999716,-0.706666666666667,-0.32583333333333364
+7909,De tager fejl.,They are wrong.,-1.0899999999999999,0.4800000000000004,-0.3049999999999997
+5403,Det må De undskylde.,Do forgive me.,0.5874999999999986,-1.0899999999999999,-0.25125000000000064
+9899,Blot et par stikord.,Just a few main points.,0.5874999999999986,-1.032,-0.22225000000000072
+101,Det har vi godkendt.,We have agreed to this.,0.5874999999999986,-1.032,-0.22225000000000072
+7120,Jeg beder om støtte.,I ask for your support.,0.5874999999999986,-1.032,-0.22225000000000072
+7176,"Jeg synes, at vi skal beholde denne.",I think we need to retain it.,2.2557142857142836,-2.4542857142857173,-0.09928571428571686
+3401,Det har vi allerede fået.,This has now been done.,0.8520000000000003,-1.032,-0.08999999999999986
+3745,Der er nu gået fire måneder.,We are now four months down the line.,-0.375,0.2325000000000017,-0.07124999999999915
+2790,"Jeg håber, at vi kan finde en løsning.",I hope that we can thrash this out.,0.8212499999999991,-0.9450000000000003,-0.06187500000000057
+5399,Hvis De accepterer ...,If you ratify ...,2.942499999999999,-2.9450000000000003,-0.0012500000000006395
+2195,De 15 er åbenbart ikke nok.,The 15 clearly do not suffice.,-1.1600000000000001,1.1950000000000003,0.01750000000000007
+9098,Det bør fru Lucas også gøre.,Mrs Lucas should do the same.,-0.375,0.41000000000000014,0.01750000000000007
+2085,Nu er der brug for handling.,What is now needed is action.,-0.375,0.41000000000000014,0.01750000000000007
+3920,Det skal vi passe på med.,We should be careful about this.,-2.729999999999997,2.7650000000000006,0.017500000000001847
+5620,Lad os lære af fortiden.,Let us learn the lessons of the past.,-0.08999999999999986,0.2325000000000017,0.07125000000000092
+4543,"Jeg håber, det lykkes.",I hope that it works out.,2.942499999999999,-2.729999999999997,0.10625000000000107
+9563,Vi er helt enige i det sidste.,We could not agree more with the latter.,-1.7814285714285738,1.9987500000000011,0.10866071428571367
+6677,Hvad skal vi gøre med pengene?,What is to be done with this money?,1.1950000000000003,-0.9450000000000003,0.125
+4623,Nu angriber man sjælen.,"Now, it is the soul.",4.120000000000001,-3.857999999999997,0.131000000000002
+9782,Hvorfor nævner jeg det?,And do you know why?,4.120000000000001,-3.857999999999997,0.131000000000002
+559,"De har vækst, men regnet i BNP.","They are growing, but only in terms of GDP.",-1.1085714285714268,1.3866666666666667,0.13904761904761997
+2229,"Hvad er det, vi har brug for nu og her?",So what do we need to happen immediately?,-2.3000000000000007,2.5874999999999986,0.14374999999999893
+141,Det kan der ikke laves om på.,There is no room for amendments.,-2.4542857142857173,2.7650000000000006,0.15535714285714164
+6919,I dag har vi nået enden på et langt forløb.,"Today, we have arrived at the end of a long road.",-0.41600000000000037,0.7690909090909095,0.17654545454545456
+7934,Det vil ikke svække hr.,They will not weaken Mr Haider and the FPÖ.,-1.032,1.3866666666666667,0.17733333333333334
+9743,"Vi råder over 1,27% af EU's BNP.",We have 1.27% of the Community' s GDP.,-0.4357142857142833,0.8212499999999991,0.19276785714285793
+2295,"Det er et mirakel, at de blev reddet.",It is a miracle that they were saved.,0.2325000000000017,0.2325000000000017,0.2325000000000017
+9809,Den er ikke tydelig.,There is no obvious way.,0.5874999999999986,-0.08999999999999986,0.24874999999999936
+143,Det blev ikke til noget.,That did not happen.,-0.08999999999999986,0.5874999999999986,0.24874999999999936
+9914,Indgyder det mig håb for år 2000?,Does that give me hope for the year 2000?,0.23714285714285666,0.33999999999999986,0.28857142857142826
+5290,Også det kan lade sig gøre.,That too is feasible.,-1.1600000000000001,1.7650000000000006,0.3025000000000002
+1678,Her skal der således ske meget.,So a great deal has to be done in this area.,1.9800000000000004,-1.3718181818181812,0.30409090909090963
+8663,"Jeg tror også, at det er godt.",I believe that this is actually a good thing.,-1.7814285714285738,2.43333333333333,0.3259523809523781
+2173,Nu har vi resultatet.,And this is the result.,1.7650000000000006,-1.032,0.36650000000000027
+7688,"Det er rigtig godt, og vi glæder os over det.","This is very good, and we are pleased to see it.",0.5259999999999998,0.34090909090908994,0.43345454545454487
+993,"Mange tak, hr.","Thank you very much, Mr Radwan.",-1.0899999999999999,1.9800000000000004,0.4450000000000003
+2473,Uvejr i Europa,Storms in Europe,-1.0899999999999999,2.0500000000000007,0.4800000000000004
+8115,"Tak, hr. Wurtz.","Thank you, Mr Wurtz.",0.4800000000000004,0.5874999999999986,0.5337499999999995
+3496,Der er en ny Kommission.,There is now a new Commission.,-0.08999999999999986,1.1950000000000003,0.5525000000000002
+5686,Vi er faktisk rystede.,"In fact, we were shaken by it.",2.942499999999999,-1.7814285714285738,0.5805357142857126
+2870,Den skal være synlig.,It must be visible.,1.7650000000000006,-0.5899999999999999,0.5875000000000004
+2864,Den skal være synlig.,It must be visible.,1.7650000000000006,-0.5899999999999999,0.5875000000000004
+4707,Det drejer sig om EURODAC.,I refer to Eurodac.,1.7940000000000005,-0.5899999999999999,0.6020000000000003
+6922,"Det er som en slange, der bider i sin egen hale.",They are like a snake biting its own tail.,0.34090909090908994,0.8633333333333333,0.6021212121212116
+2933,Tak for svaret.,Thank you for your reply.,0.4800000000000004,0.8520000000000003,0.6660000000000004
+829,Mange tak!,Thank you very much.,0.7650000000000006,0.5874999999999986,0.6762499999999996
+6741,"Jeg er helt enig, og det vil vi også gøre.","I agree, absolutely. We shall do so.",-0.8870000000000005,2.2557142857142836,0.6843571428571416
+7101,"Vi mener, at det er rigtigt.",We think they should.,-0.375,1.7650000000000006,0.6950000000000003
+3020,Jeg vil igen opfordre Kina til dette.,I urge the Chinese again to do so.,2.9285714285714306,-1.5337499999999977,0.6974107142857164
+3547,Men sådan er det nu engang.,"That is just the way things are, however.",-1.1600000000000001,2.5874999999999986,0.7137499999999992
+7620,Vi går nu over til afstemning.,We shall now proceed to the vote.,1.1950000000000003,0.23714285714285666,0.7160714285714285
+7661,"Tak, hr. van Velzen.","Thank you, Mr van Velzen.",0.5874999999999986,0.8520000000000003,0.7197499999999994
+4727,Men jeg vil gerne tilføje et advarende ord.,But I want to add a word of caution.,3.7650000000000006,-2.2766666666666637,0.7441666666666684
+8769,"Man må håbe, det lykkes.",One can only hope that it succeeds.,-0.08999999999999986,1.5828571428571436,0.7464285714285719
+8232,"Det er dét, og kun det, sagen drejer sig om.","This is all I am talking about here, just that.",0.054999999999999716,1.468,0.7614999999999998
+3093,Anden del,Second Part,-1.5899999999999999,3.120000000000001,0.7650000000000006
+2917,Første del,First Part,0.7650000000000006,0.7650000000000006,0.7650000000000006
+9808,En kombination af disse to mål er ikke let.,It is not easy to combine those aims.,1.3866666666666667,0.2325000000000017,0.8095833333333342
+410,Nu er man kommet meget bagud i sagen.,We are badly behind now in this matter.,0.2325000000000017,1.4100000000000001,0.8212500000000009
+5940,I teorien kunne vi godt have gjort det.,"In theory, we could have done so.",1.4100000000000001,0.23714285714285666,0.8235714285714284
+8618,Det er yderst uheldigt.,This is not very good at all.,4.120000000000001,-2.4542857142857173,0.8328571428571419
+25,"Tak, hr. Segni, det gør jeg med glæde.","Thank you, Mr Segni, I shall do so gladly.",0.8212499999999991,0.8633333333333333,0.8422916666666662
+821,"Hr. Wynn, det er logisk.","Mr Wynn, that makes sense.",-0.08999999999999986,1.7940000000000005,0.8520000000000003
+5874,New Zealand har gjort.,So I want to put this question to you.,2.942499999999999,-1.2299999999999969,0.8562500000000011
+7809,"Hvis de giver efter, er de fortabt.","If they yield, they are lost.",1.5828571428571436,0.41000000000000014,0.9964285714285719
+9247,Her agter vi i fællesskab at sætte Europa i gang.,We too want to help put Europe on its feet.,2.41,-0.41600000000000037,0.9969999999999999
+2226,"Jeg vil gerne fortælle Dem, hvad vi skal gøre.",I will tell you a few things we should do.,2.956666666666667,-0.8870000000000005,1.0348333333333333
+3700,Jeg vil gerne komme med et eksempel på dette.,I will give you one example of this.,2.43333333333333,-0.3562499999999993,1.0385416666666654
+7283,Fortsæt ikke med det!,Do not continue in this vein!,1.7650000000000006,0.41000000000000014,1.0875000000000004
+6184,"Det er en stor opgave, men overkommelig.",This is a big task but it can be done.,4.947142857142854,-2.771000000000001,1.0880714285714266
+8550,Det forekommer mig lidt for lang tid.,That seems to me to be rather too long.,2.9285714285714306,-0.706666666666667,1.1109523809523818
+6865,"Det er noget, vi alle kan støtte.",It is something that we can all support.,0.23714285714285666,1.9987500000000011,1.117946428571429
+4759,Tak for svaret.,Thank you for your answer.,0.4800000000000004,1.7940000000000005,1.1370000000000005
+9455,"Det er ikke det, som Prodi er formand for i dag.",That is not what Mr Prodi is President of today.,0.34090909090908994,1.939,1.139954545454545
+153,"Det, mener jeg, er en god løsning.",This seems to me to be a workable solution.,0.9100000000000001,1.3866666666666667,1.1483333333333334
+759,Jeg er enig i Deres analyse.,I agree with your analysis.,-0.375,2.735999999999997,1.1804999999999986
+8720,Denne periode er nu vel overstået.,That time is now past.,4.334999999999997,-1.9740000000000002,1.1804999999999986
+3897,Det er vigtigt at huske på.,It is important to remember that.,-1.1600000000000001,3.5500000000000007,1.1950000000000003
+3329,Jeg er helt enig med Dem.,"Firstly, I agree with you entirely.",-2.729999999999997,5.120000000000001,1.195000000000002
+5896,Jeg spørger jo ikke om det uden grund.,I have good reason for asking this.,0.8212499999999991,1.5828571428571436,1.2020535714285714
+6582,Der er ansøgt om 35 millioner euro.,We have been asked for EUR 35 million.,1.5828571428571436,0.8212499999999991,1.2020535714285714
+90,Der var en afstemning om dette punkt.,There was a vote on this matter.,2.9285714285714306,-0.4357142857142833,1.2464285714285737
+6940,Det er skamløst!,It is shameful!,2.0500000000000007,0.4800000000000004,1.2650000000000006
+9249,Det støtter vi.,We support that.,0.4800000000000004,2.0500000000000007,1.2650000000000006
+8239,Vi er ved at tale med jurister om sagen.,We are taking legal advice.,-0.18333333333333357,2.735999999999997,1.2763333333333318
+2214,Men det eksisterer ikke.,But this is not in place.,5.297499999999999,-2.729999999999997,1.2837500000000013
+5277,Det er den samme omgang møg!,They are all tarred with the same dirty brush!,-0.375,2.956666666666667,1.2908333333333335
+9952,De vil se resultater.,They want to see results.,1.7650000000000006,0.8520000000000003,1.3085000000000004
+2960,"Hvis ikke, hvorfor?","If not, why not?",6.760000000000002,-4.122500000000002,1.3187499999999996
+8646,Det er en vanskelig opgave.,This is an arduous task.,2.735999999999997,-0.08999999999999986,1.3229999999999986
+2233,Det har vi brug for for skibes vedkommende.,This is what we need for ships.,3.7650000000000006,-1.1085714285714268,1.328214285714287
+6691,"Alt det skal ske, og det hurtigt.","All of this needs to happen, and quickly too.",0.23714285714285666,2.43333333333333,1.3352380952380933
+1333,Det er ikke for at bevare arbejdspladser.,Not to save jobs.,5.620000000000001,-2.9450000000000003,1.3375000000000004
+5798,Er det Rådet?,The Council?,-2.66,5.475000000000001,1.4075000000000006
+9097,"Jeg tog den straf, der blev mig tildelt.",I took the punishment that came to me.,1.9987500000000011,0.8212499999999991,1.4100000000000001
+149,"Jeg beklager, hr. Hänsch og hr.","I am terribly sorry, Mr Hänsch and Mr Cox.",1.9800000000000004,0.8633333333333333,1.4216666666666669
+5903,USA. Vi må ikke være naive og tro noget andet.,We should not be so naïve as to think otherwise.,0.9969999999999999,1.939,1.468
+2303,Hvor er Erikas ejere?,Where are the Erika' s owners?,1.7650000000000006,1.1950000000000003,1.4800000000000004
+5428,"Det var alles værk, ikke kun en enkelt gruppes.","We all took part in it, not just one group.",3.4800000000000004,-0.41600000000000037,1.532
+9172,"Det er det, som vi skal gøre for Balkanlandene.",This is what we need to do for the Balkans.,3.4800000000000004,-0.41600000000000037,1.532
+4803,"Det er et spørgsmål, der står åbent.",The matter is still open.,2.2557142857142836,0.8520000000000003,1.553857142857142
+6966,"Det er det, kultur 2000 handler om.",That is what Culture 2000 is about.,1.5828571428571436,1.5828571428571436,1.5828571428571436
+817,Vi har taget det til efterretning.,We have taken note of this.,4.334999999999997,-1.1600000000000001,1.5874999999999986
+7155,Det er også et vigtigt punkt.,This is also an important point.,0.41000000000000014,2.7650000000000006,1.5875000000000004
+3666,Har man ikke taget ved lære?,Have the lessons not been learnt?,-0.375,3.5500000000000007,1.5875000000000004
+449,"Vi ønsker ikke et Europa, der kun består af byer.",We do not want to build a Europe of cities alone.,2.41,0.7690909090909095,1.5895454545454548
+7884,"Men jeg ved ikke, hvor klogt det var.","However, I do wonder about the wisdom of this.",0.2325000000000017,2.956666666666667,1.5945833333333344
+3943,Det mangler vi.,These are what are missing.,0.4800000000000004,2.735999999999997,1.6079999999999988
+6105,Det skal være det afgørende punkt.,This is the crux of the matter.,4.334999999999997,-1.1085714285714268,1.6132142857142853
+694,Og det er jo i sidste instans målet.,Surely this must be the ultimate goal.,-0.3562499999999993,3.6014285714285705,1.6225892857142856
+6750,Et eksempel på dette er anvendelsen af tørv.,One example is the use of peat.,4.353750000000002,-1.1085714285714268,1.6225892857142874
+6216,"De er der, men der er også visse grænser.","Of course they do, but they are not unlimited.",0.33999999999999986,2.956666666666667,1.6483333333333334
+5335,Det er ikke altid tilfældet.,That is not always the case.,3.678000000000001,-0.375,1.6515000000000004
+9519,Man skal gå hurtigere frem.,We must move faster.,2.735999999999997,0.5874999999999986,1.6617499999999978
+1122,De er nærmest stadig i træning.,"They are still in training, as it were.",1.9800000000000004,1.4100000000000001,1.6950000000000003
+2572,"Jeg mener, at de har krav på solidaritet.",I say they have a right to solidarity.,2.5874999999999986,0.8212499999999991,1.7043749999999989
+8657,De skal hver gang fordeles på ny.,It has to be redistributed time and again.,0.23714285714285666,3.1762499999999996,1.7066964285714281
+208,Lad mig lige nævne et sidste punkt.,I would like to mention one final point.,1.5828571428571436,1.9987500000000011,1.7908035714285724
+2939,Nu til den tekniske del.,Now to the technical aspect.,-0.08999999999999986,3.678000000000001,1.7940000000000005
+8982,Det vil jeg personligt stå inde for.,I am making a personal commitment to do so.,2.2557142857142836,1.3866666666666667,1.8211904761904751
+5804,"Ja, hr. formand, det er korrekt.",". Yes, Mr President, that is true.",2.7650000000000006,0.9100000000000001,1.8375000000000004
+5590,Det gælder os alle og ikke kun Østrig.,"We are talking about us, not Austria.",0.8212499999999991,2.9285714285714306,1.8749107142857149
+8093,"Tak, hr. Davies.","Thank you, Mr Davies.",2.0500000000000007,1.7650000000000006,1.9075000000000006
+8102,"Tak, hr. Murphy.","Thank you, Mr Murphy.",2.0500000000000007,1.7650000000000006,1.9075000000000006
+2463,"Jeg slutter, nu vil jeg ikke udbrede mig mere.",I will end now. I will not expand further.,2.956666666666667,0.8633333333333333,1.9100000000000001
+9996,"Det er noget, vi må værne imod.",That is something we must guard against.,-1.1085714285714268,4.947142857142854,1.9192857142857136
+5678,"For hvad er det, der knytter os sammen i Europa?",Because what is it that unites us in Europe?,1.939,1.9100000000000001,1.9245
+8126,"Nu er det februar, og der er stadig ingen kanal.",It is now February and we are still waiting.,1.939,1.9100000000000001,1.9245
+2063,Hvorfor ikke?,Why not?,7.829999999999998,-3.9450000000000003,1.942499999999999
+4826,For vores vedkommende vil det stå der.,"As far as we are concerned, they will be.",3.6014285714285705,0.33999999999999986,1.9707142857142852
+7527,For det første: Hvem skal betale?,First of all: who should pay?,3.5500000000000007,0.41000000000000014,1.9800000000000004
+3221,"Jeg synes, at svaret er kort og tydeligt.",I think that the answer is brief and clear.,2.5874999999999986,1.3866666666666667,1.9870833333333326
+4668,Jeg vil kort fremhæve tre ting.,I would like to make three brief points.,1.9800000000000004,1.9987500000000011,1.9893750000000008
+955,Vi har en meget spændende debat foran os.,We have a quite exciting debate in front of us.,2.5874999999999986,1.468,2.0277499999999993
+5888,"Jeg mener, at vi kan lære noget af dette.",I believe we can learn something from this.,0.33999999999999986,3.7650000000000006,2.0525
+2415,De vil have nogle svar.,They want answers.,-1.032,5.189999999999998,2.078999999999999
+3827,Nu synes der at ligge mere alvor bag.,It now appears that this desire is more serious.,0.2325000000000017,4.003333333333334,2.117916666666668
+95,Nu vil jeg gerne sige noget til selve sagen.,I should now like to comment on the issue itself.,1.9100000000000001,2.41,2.16
+9744,Hverken mere eller mindre.,Not a euro more or a euro less.,7.6525,-3.3000000000000007,2.1762499999999996
+5606,"Men det er ikke det, der er problemet.","However, that is not the problem.",0.8212499999999991,3.5500000000000007,2.185625
+7490,"Jeg tror, at vi har forelagt et godt forslag.",I think we have tabled a sound proposal.,2.43333333333333,1.9987500000000011,2.2160416666666656
+2418,Hvem giver os en ny arbejdsplads?,Who will provide us with new jobs?,3.5500000000000007,0.9100000000000001,2.2300000000000004
+220,Jeg vil kun komme med få bemærkninger.,I should like to make just a few comments.,3.6014285714285705,0.8633333333333333,2.232380952380952
+2568,"Kære kolleger, det er forkert!",This is wrong!,5.562000000000001,-1.0899999999999999,2.2360000000000007
+7105,Jeg kan kun advare Dem imod at stemme for det.,I can only warn you against consenting to this.,0.9969999999999999,3.4800000000000004,2.2385
+7398,Det kan jeg ikke acceptere.,I cannot accept that.,2.735999999999997,1.7650000000000006,2.250499999999999
+2277,Det kan jeg ikke acceptere.,I cannot accept this.,2.735999999999997,1.7650000000000006,2.250499999999999
+5633,Derfor må vi reagere.,Our response must be rapid.,1.7650000000000006,2.735999999999997,2.250499999999999
+7699,Læg vel mærke til det!,People must realise this!,-1.9740000000000002,6.475000000000001,2.2505000000000006
+9111,De har vores fulde støtte!,They have our full support.,1.7940000000000005,2.735999999999997,2.264999999999999
+6586,Dette er ikke vores holdning.,This is not our opinion.,4.620000000000001,-0.08999999999999986,2.2650000000000006
+5502,Men det vidste vi godt.,"However, we already knew this.",-1.032,5.562000000000001,2.2650000000000006
+3896,Vi bør se det i det rette perspektiv.,We should get it into perspective.,0.2325000000000017,4.334999999999997,2.2837499999999995
+1062,Vil dette faktum optage os på et tidspunkt?,When will we debate that?,3.7650000000000006,0.8520000000000003,2.3085000000000004
+3191,"Er der nogen, der har fundet arbejde?",Did anyone find work?,2.9285714285714306,1.7650000000000006,2.3467857142857156
+9423,Hvad forlanger vi af en ledelse?,What do we expect from a government in any case?,2.7650000000000006,1.939,2.3520000000000003
+8228,Det er da absurd.,That is absolutely absurd.,-2.9450000000000003,7.6525,2.35375
+7379,Det kan vi ikke acceptere.,We cannot accept this.,1.7940000000000005,2.942499999999999,2.3682499999999997
+2956,Jeg har ikke de samme bekymringer.,I do not have these concerns.,4.334999999999997,0.41000000000000014,2.3724999999999987
+202,"Kort sagt, det er meget vigtigt.","In short, the issue is an important one.",2.7650000000000006,1.9987500000000011,2.381875000000001
+8947,Jeg er helt enig heri.,I agree completely.,-1.9740000000000002,6.760000000000002,2.3930000000000007
+8964,Det var alt for den første bemærkning.,So much for the first comment.,3.6014285714285705,1.1950000000000003,2.3982142857142854
+9018,Denne holdning kan jeg kun dele fuldt ud.,I can only fully share your concern.,2.5874999999999986,2.2557142857142836,2.421607142857141
+1603,Problemet er dog hvert år det samme.,"Yet, every year we have the same problem.",2.2557142857142836,2.5874999999999986,2.421607142857141
+9690,EU må ikke blive en union med mandligt ansigt.,The EU must not take on a masculine persona.,2.956666666666667,1.9100000000000001,2.4333333333333336
+2799,De er uklar på dette punkt i Deres hvidbog.,You are unclear about this in your White Paper.,1.3866666666666667,3.4800000000000004,2.4333333333333336
+9482,Det gælder ikke kun for Østrig.,That does not apply to Austria alone.,1.9800000000000004,2.9285714285714306,2.4542857142857155
+6708,"F.eks. ændringsforslag 1, 2 og 4.","For example, Amendments Nos 1, 2 and 4.",3.5500000000000007,1.4100000000000001,2.4800000000000004
+2389,RINA er i øjeblikket i miskredit.,RINA is currently the talk of the town.,3.5500000000000007,1.4100000000000001,2.4800000000000004
+750,Dette er kvalitet.,So much for the quality.,5.189999999999998,-0.08999999999999986,2.549999999999999
+6028,Jeg har et sidste spørgsmål.,There is one final issue I would like to raise.,3.678000000000001,1.468,2.5730000000000004
+1388,Ingen diskussion om det.,This is not in question.,5.297499999999999,-0.08999999999999986,2.60375
+9882,Det bør være en af vores vigtigste prioriteter.,This is a key priority for us to focus on.,6.120000000000001,-0.8870000000000005,2.6165000000000003
+6888,Sådan er det desværre. Det må vi konstatere.,Sadly that is the case and we must face facts.,4.353750000000002,0.9969999999999999,2.6753750000000007
+611,"Jeg mener, at det modsatte er tilfældet.",I find the opposite the case.,4.947142857142854,0.41000000000000014,2.678571428571427
+3424,Som eksempel herpå nævner jeg Gaza.,I would quote Gaza as an example.,5.120000000000001,0.23714285714285666,2.678571428571429
+3735,Kan det være rigtigt?,Is this possible?,1.7650000000000006,3.620000000000001,2.692500000000001
+9082,"Napolitano, De skal have tak.",Thank you.,4.620000000000001,0.7650000000000006,2.692500000000001
+8820,"Det mener jeg, at vi kan være tilfredse med.",I believe that we should be pleased about this.,1.9100000000000001,3.4800000000000004,2.6950000000000003
+1724,Jeg henviser til henstilling 1 og 2.,I am referring to Recommendations 1 and 2.,2.2557142857142836,3.1762499999999996,2.7159821428571416
+1640,Reelt er der tale om en dobbelt afledning.,And indeed there is a twofold shift.,3.1762499999999996,2.2557142857142836,2.7159821428571416
+1420,"Det er et forhold, man bør holde sig for øje.",This is therefore an aspect to be considered.,0.5259999999999998,4.942499999999999,2.7342499999999994
+5974,Den varede kun fem måneder.,It lasted only five months.,2.735999999999997,2.735999999999997,2.735999999999997
+2212,De 25% skal altså forhøjes.,So this 25% should be increased.,2.735999999999997,2.7650000000000006,2.750499999999999
+7350,Det er ikke særlig store udgifter.,These costs are not very high.,4.334999999999997,1.1950000000000003,2.764999999999999
+7555,Vi skal gøre dette for miljøets skyld.,We must do this for the sake of the environment.,3.6014285714285705,1.939,2.7702142857142853
+2482,Det vil jeg gerne forklare nærmere.,Let me explain.,5.120000000000001,0.4800000000000004,2.8000000000000007
+2617,Det er vigtigt.,That is important.,0.4800000000000004,5.189999999999998,2.834999999999999
+3694,Det er vigtigt.,That is important.,0.4800000000000004,5.189999999999998,2.834999999999999
+3450,Men vi har brug for den reformproces.,But we need that reform process.,2.9285714285714306,2.7650000000000006,2.8467857142857156
+964,Alt sammen til gavn for forbrugerne.,All this is to the good of the consumer.,5.905000000000001,-0.18333333333333357,2.860833333333334
+826,"Fru Ahern, vi har taget det til efterretning.","Mrs Ahern, we have taken note of this.",4.942499999999999,0.8212499999999991,2.881874999999999
+1174,Jeg går derfor helt ind for denne beretning.,This is why I give this report my full support.,4.353750000000002,1.468,2.9108750000000008
+2440,Sådan forholder det sig.,That is the reality.,5.297499999999999,0.5874999999999986,2.942499999999999
+7172,"Det er et grundprincip, og det må vi beholde.",That is a basic principle which we must uphold.,2.43333333333333,3.4800000000000004,2.956666666666665
+2903,Det er min vurdering i øjeblikket.,That is my judgement at the moment.,4.334999999999997,1.5828571428571436,2.9589285714285705
+2290,Den kunne have lækket et andet sted.,It could have sunk anywhere.,2.2557142857142836,3.678000000000001,2.966857142857142
+6796,Jeg drister mig ligeledes til også at nævne tørv.,May I also venture to raise the matter of peat?,4.526666666666667,1.468,2.9973333333333336
+7921,Jeg er stolt over at støtte en sådan beslutning.,I am proud to support such a resolution.,4.003333333333334,1.9987500000000011,3.0010416666666675
+1992,Det er især oprørende på det sociale plan.,This is repulsive most of all in social terms.,3.1762499999999996,2.956666666666667,3.0664583333333333
+4789,Jeg vil gerne have svar på dette spørgsmål.,I should like to have an answer to that question.,3.7650000000000006,2.41,3.0875000000000004
+3869,Der mangler rygrad og tænder.,"There is no backbone, and no teeth.",4.620000000000001,1.5828571428571436,3.1014285714285723
+816,"Cox, jeg forstår, hvad De mener.",I understand what you are saying.,2.7650000000000006,3.5500000000000007,3.1575000000000006
+9714,Jeg agter at dømme Dem på Deres handlinger.,I will therefore judge you on your deeds.,3.7650000000000006,2.5874999999999986,3.1762499999999996
+1812,Vi har ikke engang en føderal EU-skat endnu.,There is as yet no federal European tax.,4.353750000000002,1.9987500000000011,3.1762500000000014
+6955,"Hvorfor siger jeg, at kultur er vigtigt?",Why do I say that culture is important?,4.947142857142854,1.4100000000000001,3.178571428571427
+1288,"Jeg mener ikke, at det er acceptabelt.",This is unacceptable in my view.,3.6014285714285705,2.7650000000000006,3.1832142857142856
+5372,"Mange tak, fru Fraga.","Thank you, Mrs Fraga Estévez.",1.7650000000000006,4.620000000000001,3.192500000000001
+4049,Denne revisionstjeneste åbner den 1. maj i år.,That service will open on 1 May this year.,5.53125,0.8633333333333333,3.1972916666666666
+8838,Endelig et ord om Interreg.,"Finally, a word on INTERREG.",2.735999999999997,3.678000000000001,3.206999999999999
+2604,Det er et uopretteligt tab.,This is an irreparable loss.,2.735999999999997,3.678000000000001,3.206999999999999
+3505,Disse ser faktisk gode ud.,They look good in themselves.,1.7940000000000005,4.620000000000001,3.2070000000000007
+4696,Jeg takker dem for deres udtalelser her i dag.,I thank them for their statements to the House.,2.956666666666667,3.4800000000000004,3.2183333333333337
+6590,De andre betaler ikke.,The other parties are not paying.,2.942499999999999,3.5500000000000007,3.24625
+9087,"Tak, hr. Lannoye.","Thank you, Mr Lannoye.",3.620000000000001,2.942499999999999,3.28125
+7966,Det urene dyr er vågnet!,The foul monster has been reawakened!,-0.08999999999999986,6.689999999999998,3.299999999999999
+2987,Det nævnes også i rapporten.,That is also mentioned in the report.,3.678000000000001,2.9285714285714306,3.3032857142857157
+173,Jeg beder om Deres godkendelse.,I would urge you to endorse this.,6.504000000000001,0.23714285714285666,3.370571428571429
+2375,"Det er tydeligt, at der ikke mangler regler.",It is clear that there is no lack of legislation.,4.353750000000002,2.41,3.381875000000001
+5969,"Der er ingen, der beder om et julemirakel.",Nobody is asking for a Christmas tree.,3.1762499999999996,3.6014285714285705,3.388839285714285
+5626,Vi må derfor reagere stærkt og hurtigt.,So our response must be rapid and strong.,4.274285714285714,2.5874999999999986,3.4308928571428563
+5700,Europa er et retssamfund.,Europe is a community of law.,6.475000000000001,0.41000000000000014,3.442500000000001
+7030,"Det er det, kultur 2000 står for.",That is what Culture 2000 represents.,0.23714285714285666,6.689999999999998,3.463571428571427
+2569,"Det er der heller ingen, der kan forstå.",And no one can comprehend this attitude.,1.9987500000000011,4.947142857142854,3.4729464285714275
+9094,Jeg føler stor sympati for denne protest.,I have a lot of sympathy with that protest.,5.620000000000001,1.3866666666666667,3.503333333333334
+2428,Emnet er mere aktuelt end nogensinde.,The issue is as topical as it was before.,6.689999999999998,0.33999999999999986,3.514999999999999
+797,(Mødet hævet kl. 20.25),(The sitting was closed at 8.25 p.m.),4.120000000000001,2.9285714285714306,3.524285714285716
+5367,(Mødet hævet kl. 20.14),(The sitting was closed at 8.14 p.m.),4.120000000000001,2.9285714285714306,3.524285714285716
+7072,(Mødet hævet kl. 21.55),(The sitting was closed at 9.55 p.m.),4.120000000000001,2.9285714285714306,3.524285714285716
+8549,Der er fastsat fem måneder.,Five months are provided for this.,2.735999999999997,4.334999999999997,3.535499999999997
+3409,Vi vil imidlertid have endnu mere.,"We want more than that, however.",4.334999999999997,2.7650000000000006,3.549999999999999
+846,Den bør fortsætte ad denne vej.,It should continue along this path.,1.9800000000000004,5.120000000000001,3.5500000000000007
+2938,Det var til det politiske aspekt.,So much for the political aspect.,3.5500000000000007,3.5500000000000007,3.5500000000000007
+734,På Réunion er der f.eks. en arbejdsløshed på 37%.,"In Reunion, for example, the rate is 37%.",4.526666666666667,2.5874999999999986,3.557083333333333
+4671,Lad os holde op med at skyggebokse.,Let us stop the shadow-boxing.,1.5828571428571436,5.562000000000001,3.5724285714285724
+9009,Nu til indholdet i betænkningen.,I now come to the content of the report.,7.445999999999998,-0.18333333333333357,3.631333333333332
+4215,Det andet punkt drejer sig om Syrien.,The second point relates to Syria.,2.9285714285714306,4.334999999999997,3.631785714285714
+5803,Det var mine tre spørgsmål.,These are my three questions.,2.735999999999997,4.620000000000001,3.677999999999999
+727,Hvordan er et retfærdigt samfund?,What is a fair society?,8.387999999999998,-1.032,3.677999999999999
+8736,"Jeg håber, de bliver vedtaget.",I hope for their adoption.,5.562000000000001,1.7940000000000005,3.678000000000001
+9225,Vi i Den Europæiske Union er et fællesskab!,We in the European Union are one Community.,3.7650000000000006,3.7650000000000006,3.7650000000000006
+3918,Spørgsmålet er bare hvordan.,It is just a question of how.,10.0075,-2.4542857142857173,3.7766071428571415
+93,Alle andre mente noget andet.,All of the others were of a different opinion.,4.620000000000001,2.956666666666667,3.788333333333334
+8870,"Dette er ikke politik, men livets simple logik.",This is not policy; it is life' s simple logic.,6.120000000000001,1.468,3.7940000000000005
+5722,Det er et spørgsmål om overbevisning.,It is also a matter of conviction.,6.689999999999998,0.9100000000000001,3.799999999999999
+5288,"Dem kan man imødekomme, det er muligt.",We can take action against this; it is possible.,3.6014285714285705,4.003333333333334,3.802380952380952
+3913,Men vi har brug for en gennemgribende reform.,But we need radical reform.,4.942499999999999,2.735999999999997,3.839249999999998
+4126,(Mødet hævet kl. 23.15),(The sitting was closed at 11.15 p.m.),4.120000000000001,3.6014285714285705,3.8607142857142858
+8080,(Mødet hævet kl. 12.25),(The sitting was closed at 12.25 p.m.),4.120000000000001,3.6014285714285705,3.8607142857142858
+717,Hvad medfører dette?,What is the result?,8.329999999999998,-0.5899999999999999,3.869999999999999
+1022,Vi vil have en reel konkurrencekultur i EU.,We want a true culture of competition in Europe.,3.7650000000000006,4.003333333333334,3.884166666666667
+8242,Hørt! Vi er helt enige.,"Quite, we agree absolutely.",-1.032,8.829999999999998,3.898999999999999
+9075,"Tak, hr. Medina Ortega.","Thank you, Mr Medina Ortega.",4.120000000000001,3.678000000000001,3.899000000000001
+6178,"Men det er præcis det, der sker.","However, that is precisely what is happening.",-0.4357142857142833,8.311428571428571,3.937857142857144
+722,Vi skal give dem denne mulighed.,We must give them this opportunity.,2.7650000000000006,5.120000000000001,3.942500000000001
+1728,Det er der ikke ændret noget ved.,Nothing has changed there.,0.23714285714285666,7.6525,3.9448214285714283
+7652,"Jeg noterer det, De netop sagde, hr. Speroni.","I have taken note of your comment, Mr Speroni.",4.942499999999999,2.956666666666667,3.949583333333333
+7389,Vi er nået frem til det afgørende spørgsmål.,We have arrived at the final question.,4.353750000000002,3.6014285714285705,3.977589285714286
+4505,Det spørgsmål plager mig gang på gang.,I find this question more and more worrying.,3.6014285714285705,4.353750000000002,3.977589285714286
+3615,Der er siden da indført en række kodekser.,A number of codes have since been introduced.,3.1762499999999996,4.942499999999999,4.059374999999999
+9310,"Fordi den er politisk, er den mere kompleks.",Because it is political it is more complex.,4.353750000000002,3.7650000000000006,4.059375000000001
+7577,Der er fremsat i alt 48 ændringsforslag.,A total of 48 amendments have been tabled.,4.947142857142854,3.1762499999999996,4.061696428571427
+3787,Lad mig begynde med det vigtigste mål.,Allow me to start with the most important demand.,3.6014285714285705,4.526666666666667,4.064047619047619
+8468,Der er intet sket!,Nothing has happened!,-1.7674999999999983,9.899999999999999,4.06625
+7541,Nej naturligvis ikke!,"No, of course not.",9.899999999999999,-1.7674999999999983,4.06625
+28,Det drejer sig om Alexander Nikitin.,It is the case of Alexander Nikitin.,5.905000000000001,2.2557142857142836,4.080357142857142
+7396,De har allerede betalt.,They have paid already.,4.120000000000001,4.120000000000001,4.120000000000001
+6493,Retten i Første Instans,Court of First Instance,4.120000000000001,4.120000000000001,4.120000000000001
+6617,Det er helt fantastisk!,That is excellent news!,4.120000000000001,4.120000000000001,4.120000000000001
+288,Efter min mening var det fremragende.,I thought that it was quite superb.,6.689999999999998,1.5828571428571436,4.136428571428571
+7391,Det lyder ganske enkelt: Hvem skal betale?,That is quite simply: Who pays?,6.2928571428571445,1.9800000000000004,4.1364285714285725
+2858,Der er sikkert forskellige holdninger til det.,There may be a number of views on that.,8.984285714285715,-0.706666666666667,4.138809523809524
+9805,Der skal også ske besparelser.,There must also be savings.,5.562000000000001,2.735999999999997,4.148999999999999
+3192,Hvor mange har fundet arbejde?,How many people found work?,5.562000000000001,2.735999999999997,4.148999999999999
+6988,Vi ønsker et farverigt Europa.,We want a colourful Europe.,5.562000000000001,2.735999999999997,4.148999999999999
+98,Et sådant dokument findes ikke!,There is no such document!,6.504000000000001,1.7940000000000005,4.149000000000001
+802,Jeg henviser til dagsordenens punkt 11.,I refer to item 11 on the order of business.,8.260000000000002,0.054999999999999716,4.157500000000001
+6256,Og man skal helt sikkert sætte sig klare mål.,We must clearly set firm objectives.,2.43333333333333,5.905000000000001,4.169166666666666
+2273,Vi må dog også holde fast ved kendsgerningerne.,"However, we must stick to the facts.",6.120000000000001,2.2557142857142836,4.187857142857142
+1285,Det er efter min mening ikke acceptabelt.,This is unacceptable to my mind.,5.620000000000001,2.7650000000000006,4.192500000000001
+9739,De og Deres ambitioner er meget velkomne.,I welcome you and your ambition.,5.620000000000001,2.7650000000000006,4.192500000000001
+9785,Jeg nævner tre eksempler.,Let me give you three examples.,6.475000000000001,1.9800000000000004,4.227500000000001
+2386,Nogle af dem sejler også under maltesisk flag.,Some of them also sail under the Maltese flag.,5.53125,2.956666666666667,4.2439583333333335
+8201,Vi har forsøgt at gennemføre det.,We have tried to drive this proposal through.,3.5500000000000007,4.942499999999999,4.24625
+7180,Jeg beder Dem om at støtte denne fælles holdning.,I would ask you to support this common position.,4.526666666666667,4.003333333333334,4.265000000000001
+9364,Vi kan sammen med Dem tage initiativer om dette.,We can submit motions for this together with you.,4.003333333333334,4.526666666666667,4.265000000000001
+5328,"Jeg tror, at det vil blive problematisk.",I think that this will be problematic.,4.947142857142854,3.6014285714285705,4.274285714285712
+6361,Derfor vil jeg gerne fremhæve det her!,That is why he deserves special mention!,3.6014285714285705,4.947142857142854,4.274285714285712
+6854,Det var et vigtigt argument for os.,This was an important consideration for us.,1.5828571428571436,6.965714285714284,4.274285714285714
+6882,Kultur 2000,CULTURE 2000,3.120000000000001,5.475000000000001,4.297500000000001
+7007,Det er et grelt misforhold!,There is a blatant discrepancy here!,2.735999999999997,5.905000000000001,4.320499999999999
+252,Transport af farligt gods ad vej,Transport of dangerous goods by road,2.7650000000000006,5.905000000000001,4.335000000000001
+5758,Det er derfor politisk af natur.,It is therefore political by nature.,2.7650000000000006,5.905000000000001,4.335000000000001
+1472,Er dette blot en politisk gestus?,Is this simply a political gesture?,3.5500000000000007,5.120000000000001,4.335000000000001
+9305,"Den er politisk, fordi vi bevæger os fremad.",They are political because we are moving on.,4.353750000000002,4.353750000000002,4.353750000000002
+5718,Det må helt sikkert være i alles interesse.,That surely is in everyone' s interests.,3.7650000000000006,4.947142857142854,4.356071428571427
+7222,Det alene skaber en stor mængde affald.,This in itself generates a large amount of waste.,4.274285714285714,4.526666666666667,4.400476190476191
+1200,Så juridisk må der gøres noget.,"So, judicially, something needs to be done.",1.9800000000000004,6.965714285714284,4.472857142857142
+9168,Men vi skal så afgjort gøre mere endnu.,"Nevertheless, we definitely have to do more.",1.4100000000000001,7.6385714285714315,4.524285714285716
+6071,Det er jo rent orwell'sk. Jeg vil bede hr.,"It is, of course, thoroughly Orwellian.",0.8633333333333333,8.260000000000002,4.561666666666667
+2984,"Tak for spørgsmålet, hr. Bowe.","Thank you, Mr Bowe, for that question.",5.562000000000001,3.6014285714285705,4.581714285714286
+2962,"Tak for spørgsmålet, hr. Bowe.","Thank you, Mr Bowe, for your question.",5.562000000000001,3.6014285714285705,4.581714285714286
+7108,"Det er også, hvad min gruppe udtrykkeligt ønsker.",This too is a particular desire of my group.,7.297499999999999,1.9100000000000001,4.60375
+5965,Der skal fastsættes en politik.,They need a political deal.,6.504000000000001,2.735999999999997,4.619999999999999
+5857,"Mange tak, fru Schörling.",". (SV) Thank you, Mrs Schörling.",6.475000000000001,2.7650000000000006,4.620000000000001
+5508,Det ser vi konsekvenserne af nu!,And these are the consequences!,2.7650000000000006,6.504000000000001,4.634500000000001
+2178,Der er klart tale om en økologisk katastrofe.,What we have here is an ecological disaster.,4.942499999999999,4.353750000000002,4.648125
+9912,I Deres arbejdsprogram er der ikke noget nyt.,There is nothing new in your work programme.,4.942499999999999,4.353750000000002,4.648125
+5608,Vores svar på dette afgørende spørgsmål er nej.,Our answer to this crucial question is no.,6.120000000000001,3.1762499999999996,4.648125
+7394,Det er ikke urimeligt.,That is not unreasonable.,2.942499999999999,6.475000000000001,4.70875
+7102,Lad mig sige noget om omkostningerne.,May I say something about costs.,6.689999999999998,2.7650000000000006,4.727499999999999
+8554,Hvordan søger man efter disse folk?,How will these people be selected?,5.120000000000001,4.334999999999997,4.727499999999999
+5808,Det er en del af risikoforvaltningen.,This is part of risk management.,6.689999999999998,2.7650000000000006,4.727499999999999
+4179,Jeg vil gerne understrege dette punkt.,I want to underline that point.,7.475000000000001,1.9800000000000004,4.727500000000001
+6961,Truslen kommer dog ikke fra Europa.,"However, it is not under threat from Europe.",5.120000000000001,4.353750000000002,4.736875000000001
+5623,"Vi må reagere hurtigt, stærkt og samlet.","We must make a rapid, strong and united response.",4.947142857142854,4.526666666666667,4.736904761904761
+7134,Ingen af delene er rigtige.,Neither is correct.,2.735999999999997,6.760000000000002,4.747999999999999
+326,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+251,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+3582,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+1516,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+1780,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+4125,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+629,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+4008,Hans tillid til EU's politik skal genvindes.,We must win back their faith in EU politics.,7.6385714285714315,1.9100000000000001,4.774285714285716
+796,Afstemningen finder sted i morgen kl. 12.00.,The vote will take place tomorrow at 12 p.m.,7.6385714285714315,1.9100000000000001,4.774285714285716
+9922,Intetsteds har De gjort det.,You have not integrated it anywhere.,3.678000000000001,5.905000000000001,4.791500000000001
+7516,Der er tre formål med dette direktiv.,The present directive has three aims.,2.9285714285714306,6.689999999999998,4.809285714285714
+6383,Jeg vil begrænse min redegørelse til to områder.,I propose to confine my comments to two areas.,6.708749999999998,2.956666666666667,4.832708333333333
+9107,"Hr. Corbett, jeg har ikke hørt tale om noget.","Mr Corbett, I have not received any notification.",2.43333333333333,7.297499999999999,4.865416666666665
+1293,Dengang opnåede man ikke flertal.,There was no majority for this at the time.,8.387999999999998,1.3866666666666667,4.887333333333332
+8161,Vi kan altså højst planlægge et emne mere.,We can therefore table only one additional item.,3.1762499999999996,6.708749999999998,4.942499999999999
+5400,"Hr. Gollnisch, undskyld, men De har et minut.","Mr Gollnisch, excuse me, you have one minute.",4.942499999999999,4.942499999999999,4.942499999999999
+7090,Hvad skal vi gøre med de skrottede produkter?,What should we do with the shredded products?,4.942499999999999,4.942499999999999,4.942499999999999
+4334,Det mener jeg er en særdeles opløftende nyhed.,I consider this to be very encouraging news.,5.53125,4.353750000000002,4.942500000000001
+9791,Her skal De gøre Deres dagsorden færdig.,You still have not finished that agenda.,4.947142857142854,4.947142857142854,4.947142857142854
+3579,Ellers kan vi ikke udføre vores arbejde.,"Otherwise, we cannot carry out our work.",4.947142857142854,4.947142857142854,4.947142857142854
+6894,"Det, vi gør her, er egentlig skammeligt!",It is downright scandalous what goes on!,4.947142857142854,4.947142857142854,4.947142857142854
+5426,Man må ikke være så politisk sekterisk.,We should not be so politically partisan.,4.274285714285714,5.620000000000001,4.9471428571428575
+2422,Men også det skal gennemføres professionelt.,But there is an art to that as well.,12.184999999999995,-2.2766666666666637,4.954166666666666
+1401,Hvad mener kommissæren om det?,What is the Commissioner' s opinion of this?,5.562000000000001,4.353750000000002,4.957875000000001
+4594,Der er en forfærdelig racisme i vores samfund.,The level of racism in our society is terrifying.,5.53125,4.526666666666667,5.028958333333334
+6953,Begge har gjort et fantastisk arbejde.,Both of them have done a first-class job.,7.475000000000001,2.5874999999999986,5.03125
+6881,Afstemningen finder sted i morgen kl. 11.00.,The vote will take place at 11 a.m. tomorrow.,7.6385714285714315,2.43333333333333,5.035952380952381
+5738,Afstemningen finder sted i morgen kl. 11.00.,The vote will take place at 11 a.m. tomorrow.,7.6385714285714315,2.43333333333333,5.035952380952381
+6743,Afstemningen finder sted i morgen kl. 11.00.,The vote will take place at 11 a.m. tomorrow.,7.6385714285714315,2.43333333333333,5.035952380952381
+7071,Afstemningen finder sted i morgen kl. 11.00.,The vote will take place at 11 a.m. tomorrow.,7.6385714285714315,2.43333333333333,5.035952380952381
+6573,Afstemningen finder sted i morgen kl. 11.00.,The vote will take place at 11 a.m. tomorrow.,7.6385714285714315,2.43333333333333,5.035952380952381
+4846,"Jeg forstår, at Portugal er berørt af dette her.",I understand that Portugal is affected by this.,4.003333333333334,6.120000000000001,5.061666666666667
+2186,Resten kender vi.,We know what actually happened.,3.620000000000001,6.504000000000001,5.062000000000001
+5794,Hvordan definerer De det?,How would you describe this?,6.475000000000001,3.678000000000001,5.076500000000001
+3684,Det er en fremragende betænkning.,It is an excellent report.,8.387999999999998,1.7940000000000005,5.090999999999999
+5074,Det understregede hr. Désir også for lidt siden.,This has also just been underlined by Mr Désir.,6.708749999999998,3.4800000000000004,5.094374999999999
+4896,Vi har bestræbt os på at yde materiel hjælp.,We have endeavoured to provide material help.,1.9100000000000001,8.311428571428571,5.110714285714286
+7375,Den er i høj grad blevet politisk.,It has become eminently political.,0.9100000000000001,9.329999999999998,5.119999999999999
+367,Følgerne lader ikke vente på sig.,The consequences do not inspire hope.,3.5500000000000007,6.689999999999998,5.119999999999999
+9633,Det drejer sig slet ikke om cirklens kvadratur.,This is not impossible.,6.120000000000001,4.120000000000001,5.120000000000001
+7915,Et menneskes natur ændrer sig ikke.,Leopards do not change their spots.,5.120000000000001,5.120000000000001,5.120000000000001
+1685,Præcis lige som Europol.,"It is, in fact, something very positive.",5.297499999999999,4.947142857142854,5.122321428571427
+943,Det indre marked er grundlaget for vores arbejde.,The internal market is the basis for our work.,7.297499999999999,2.956666666666667,5.127083333333333
+784,Dette er det første politiske punkt.,This is my first point regarding the policy.,5.905000000000001,4.353750000000002,5.129375000000001
+6488,Jeg står altså til disposition.,I will keep myself free in this connection.,6.504000000000001,3.7650000000000006,5.134500000000001
+6241,Det er blevet gentaget ved mange lejligheder.,"This time, however, it is true.",8.311428571428571,1.9800000000000004,5.145714285714286
+7384,Den er fuldt ud acceptabel i sin nuværende form.,"It is, as it stands, perfectly acceptable.",4.003333333333334,6.2928571428571445,5.148095238095239
+7612,Det omfattes ikke af direktivet.,This is not covered by the directive.,7.445999999999998,2.9285714285714306,5.187285714285714
+7503,Hvorfor skulle det ikke lykkes andre steder?,Why would it not work elsewhere?,7.6385714285714315,2.7650000000000006,5.201785714285716
+7735,Det må under ingen omstændigheder sættes på spil.,This should not in any way be jeopardised.,7.297499999999999,3.1762499999999996,5.2368749999999995
+3456,Det ene er nuklear sikkerhed i Østeuropa.,One is nuclear safety in Eastern Europe.,5.620000000000001,4.947142857142854,5.2835714285714275
+2788,Det er helt klart den rigtige fremgangsmåde.,That is very much the right approach.,7.6385714285714315,2.9285714285714306,5.283571428571431
+1384,Men Europa forandrer sig.,But Europe is changing.,6.475000000000001,4.120000000000001,5.297500000000001
+3005,Jeg kan ikke besvare det spørgsmål.,I cannot answer that question.,5.120000000000001,5.562000000000001,5.341000000000001
+290,Dette direktiv er et bidrag hertil.,This directive is a contribution to this.,5.120000000000001,5.620000000000001,5.370000000000001
+1296,Det er efter min mening ikke acceptabelt!,I consider this to be unacceptable.,5.620000000000001,5.120000000000001,5.370000000000001
+4616,Enhver demokrat kan få øje på to nøgleproblemer.,Any democrat can spot two key problems.,6.708749999999998,4.274285714285714,5.491517857142856
+6247,Og det er farligt for udvidelsen.,That puts enlargement in danger.,3.5500000000000007,7.445999999999998,5.497999999999999
+4339,Det ville være en lignende situation.,That would be a similar situation.,6.689999999999998,4.334999999999997,5.5124999999999975
+6805,Lige et sidste ord om programmet.,One last word regarding the programme.,3.5500000000000007,7.475000000000001,5.512500000000001
+9572,Men nu til det alvorlige.,But seriously.,0.8520000000000003,10.184999999999999,5.5184999999999995
+8863,Risikoen for udstødelse er stor.,There is an immense risk of exclusion.,7.445999999999998,3.6014285714285705,5.523714285714284
+3996,"Derudover er den ""forvirret"".",It is also 'confusing' .,11.184999999999995,-0.08999999999999986,5.547499999999998
+6492,Afstemningen finder sted i morgen kl. 11.00.,The vote will take place tomorrow at 11.00 a.m.,7.6385714285714315,3.4800000000000004,5.559285714285716
+4928,Spørgsmål nr. 9 af (H-0798/99):,Question No 9 by (H-0798/99):,6.504000000000001,4.620000000000001,5.562000000000001
+4828,Spørgsmål nr. 5 af (H-0785/99):,Question No 5 by (H-0785/99):,6.504000000000001,4.620000000000001,5.562000000000001
+4596,Racismen er rodfæstet i Irland.,Racism in Ireland is endemic.,6.504000000000001,4.620000000000001,5.562000000000001
+4858,Spørgsmål nr. 6 af (H-0788/99):,Question No 6 by (H-0788/99):,6.504000000000001,4.620000000000001,5.562000000000001
+4751,Spørgsmål nr. 1 af (H-0780/99):,Question No 1 by (H-0780/99):,6.504000000000001,4.620000000000001,5.562000000000001
+4917,Spørgsmål nr. 8 af (H-0796/99):,Question No 8 by (H-0796/99):,6.504000000000001,4.620000000000001,5.562000000000001
+4209,Jeg vil understrege fire punkter.,I want to emphasise four points.,8.387999999999998,2.7650000000000006,5.576499999999999
+7827,Derfor stemmer jeg imod denne betænkning.,This is why I am voting against the report.,9.829999999999998,1.3866666666666667,5.6083333333333325
+53,"Kære kolleger, vi vil undersøge alt dette.","Mr Berenguer Fuster, we shall check all this.",6.2928571428571445,4.942499999999999,5.617678571428572
+3847,Fremover skal en enkelt nøgle være tilstrækkelig.,A single key is to suffice in future.,11.002857142857145,0.2325000000000017,5.6176785714285735
+5631,Vi må altså finde en politisk løsning.,We must therefore find a political solution.,3.6014285714285705,7.6385714285714315,5.620000000000001
+4546,Der mangler svar.,Answers are still awaited.,3.620000000000001,7.6525,5.63625
+4005,At garantere det er et vigtigt anligggende.,Securing this is a major priority.,6.965714285714284,4.334999999999997,5.650357142857141
+5251,Vi søger løsninger.,We are looking for solutions.,6.760000000000002,4.620000000000001,5.690000000000001
+6713,Ændringsforslag 4 har lidt samme karakter.,Amendment No 4 is of a similar nature.,10.615000000000002,0.8212499999999991,5.718125000000001
+514,Jeg vil gerne forklare vores tankegang.,I would like to explain our thinking here.,8.260000000000002,3.1762499999999996,5.718125000000001
+4088,Det er i tråd med beslutningsforslaget.,That is in line with the draft resolution.,8.260000000000002,3.1762499999999996,5.718125000000001
+7372,Lad jer ikke narre af bilfabrikanterne!,Do not be fooled by the car manufacturers!,8.260000000000002,3.1762499999999996,5.718125000000001
+333,Afgrunden mellem rige og fattige vokser.,We have seen the gap between rich and poor widen.,9.044999999999998,2.41,5.727499999999999
+2328,På den anden side er det nødvendigt at forebygge.,"On the other hand, prevention is essential.",4.526666666666667,6.965714285714284,5.746190476190476
+7627,Det skal ikke optræde i ændringsforslaget.,It should not be in the amendment.,10.615000000000002,0.9100000000000001,5.762500000000001
+6128,Hvad mener Kommissionen om dette?,What is the Commission' s verdict on this?,8.387999999999998,3.1762499999999996,5.782124999999999
+4560,Det skylder vi imidlertid Europas borgere.,And yet we owe this to the citizens of Europe.,10.615000000000002,0.9969999999999999,5.806000000000001
+3518,Vi må kunne se tydelige fremskridt.,Clear progress must be visible.,5.120000000000001,6.504000000000001,5.812000000000001
+7367,Men hvem skal betale omkostningerne?,Now who should pay the costs?,11.214000000000006,0.41000000000000014,5.812000000000003
+3874,Ryd op i junglen af personaletilskud!,Sort out the tangle of staff allowances.,6.689999999999998,4.947142857142854,5.818571428571426
+6032,Det handler om et socialt retfærdigt Europa.,It is all about creating a socially just Europe.,7.6385714285714315,4.003333333333334,5.820952380952383
+8474,Det er et spørgsmål om solidaritet og fremgang.,That is a question of solidarity and progress.,6.120000000000001,5.53125,5.8256250000000005
+8584,Det er desværre ikke tilfældet i Irland.,"This, unfortunately, is not the case in Ireland.",4.947142857142854,6.708749999999998,5.827946428571426
+2414,Udenfor står de berørte og venter.,The victims are waiting outside.,4.334999999999997,7.445999999999998,5.890499999999998
+766,Jeg vil gerne nævne nogle specifikke punkter.,I should like to mention a few specific points.,8.311428571428571,3.4800000000000004,5.895714285714286
+3934,Dette er måske en smule foruroligende.,Perhaps this is a little worrying.,7.475000000000001,4.334999999999997,5.904999999999999
+7935,"Haider og FPÖ, tværtimod, det vil styrke dem.","On the contrary, they will strengthen them.",4.942499999999999,6.965714285714284,5.954107142857142
+1397,Der skal arbejdes på ensartethed.,Uniformity needs to be worked on.,8.387999999999998,3.5500000000000007,5.968999999999999
+4045,En lovændring er en forudsætning.,Change in the law is fundamental.,8.387999999999998,3.5500000000000007,5.968999999999999
+3383,Vi lykønsker Dem.,We congratulate you.,3.620000000000001,8.329999999999998,5.975
+1561,"Det overdrives undertiden, men sådan er det.",It is sometimes exaggerated but there it is.,7.6385714285714315,4.353750000000002,5.9961607142857165
+2708,Der er planer om mere end 80 foranstaltninger.,Over 80 measures are envisaged.,5.53125,6.504000000000001,6.017625000000001
+2133,Dette kan ikke længere tolereres.,This is no longer tolerable.,8.387999999999998,3.678000000000001,6.0329999999999995
+2130,Dette kan ikke længere tolereres.,This is no longer tolerable.,8.387999999999998,3.678000000000001,6.0329999999999995
+2127,Dette kan ikke længere tolereres.,This is no longer tolerable.,8.387999999999998,3.678000000000001,6.0329999999999995
+8888,Hvordan skal der prioriteres her?,How are priorities supposed to be set here?,8.387999999999998,3.7650000000000006,6.076499999999999
+461,"Desværre er dette ikke sket, men det er ikke hr.","Unfortunately, this did not happen.",1.939,10.272000000000002,6.105500000000001
+5402,"Fru formand, jeg troede jeg havde tre minutter.","Madam President, I thought I had three minutes.",6.120000000000001,6.120000000000001,6.120000000000001
+229,Det tredje punkt er også allerede blevet nævnt.,My third point has also been mentioned already.,6.120000000000001,6.120000000000001,6.120000000000001
+9385,Mit andet kritikpunkt følger af det første.,My second criticism follows on from the first.,6.965714285714284,5.53125,6.248482142857142
+7501,Jeg går ind for omkostningsfri aflevering.,I am in favour of collection free of charge.,10.615000000000002,1.9100000000000001,6.262500000000001
+2745,Den argumentation afviser jeg også.,I also reject this line of argument.,10.272000000000002,2.2557142857142836,6.263857142857143
+447,Det sidste punkt er af stor betydning.,This latter point is of particular importance.,3.6014285714285705,8.984285714285715,6.292857142857143
+1424,Her skal der finpudses lidt bedre.,Here improvements should be made.,4.334999999999997,8.387999999999998,6.361499999999998
+8522,Dermed skyder vi over målet.,We would then be overreaching ourselves.,3.678000000000001,9.044999999999998,6.3614999999999995
+4111,Det er afgjort relevant.,That is most certainly relevant.,5.297499999999999,7.445999999999998,6.371749999999999
+5246,Det må da være i almen økonomisk interesse.,There must be an overriding economic interest.,3.7650000000000006,8.984285714285715,6.374642857142858
+7723,Disse herlige biler er ikke affald.,These splendid cars do not constitute waste.,5.120000000000001,7.6385714285714315,6.379285714285716
+2678,Afstemningen finder sted torsdag kl. 12.00.,The vote will be taken at noon on Thursday.,11.399999999999999,1.3866666666666667,6.393333333333333
+94,Det var beslutningen.,That was the decision.,9.899999999999999,2.942499999999999,6.421249999999999
+9226,"Vi hører sammen, selvom der er problemer.","We belong together, even when there are problems.",5.620000000000001,7.297499999999999,6.45875
+3092,God eftermiddag.,I wish you a good evening.,14.895000000000003,-1.9450000000000003,6.475000000000001
+4531,Det første er asylspørgsmålet.,The first is asylum.,12.362500000000004,0.5874999999999986,6.475000000000001
+8110,De gør deres arbejde yderst grundigt.,They will look into the matter thoroughly.,6.689999999999998,6.2928571428571445,6.491428571428571
+3335,Spørgsmål nr. 44 af (H-0819/99):,Question No 44 by (H-0819/99):,7.445999999999998,5.562000000000001,6.504
+3137,Spørgsmål nr. 34 af (H-0831/99):,Question No 34 by (H-0831/99):,7.445999999999998,5.562000000000001,6.504
+2958,Spørgsmål nr. 29 af (H-0786/99):,Question No 29 by (H-0786/99):,7.445999999999998,5.562000000000001,6.504
+3172,Spørgsmål nr. 35 af (H-0778/99):,Question No 35 by (H-0778/99):,7.445999999999998,5.562000000000001,6.504
+3204,Spørgsmål nr. 36 af (H-0782/99):,Question No 36 by (H-0782/99):,7.445999999999998,5.562000000000001,6.504
+3317,Spørgsmål nr. 42 af (H-0817/99):,Question No 42 by (H-0817/99):,7.445999999999998,5.562000000000001,6.504
+3225,Spørgsmål nr. 37 af (H-0791/99):,Question No 37 by (H-0791/99):,7.445999999999998,5.562000000000001,6.504
+3009,Spørgsmål nr. 30 af (H-0793/99):,Question No 30 by (H-0793/99):,7.445999999999998,5.562000000000001,6.504
+3055,Spørgsmål nr. 31 af (H-0795/99):,Question No 31 by (H-0795/99):,7.445999999999998,5.562000000000001,6.504
+3279,Spørgsmål nr. 40 af (H-0808/99):,Question No 40 by (H-0808/99):,7.445999999999998,5.562000000000001,6.504
+3356,Spørgsmål nr. 45 af (H-0006/00):,Question No 45 by (H-0006/00):,7.445999999999998,5.562000000000001,6.504
+6252,Skal der afholdes en regeringskonference.,Must there be an IGC?,15.924,-2.9160000000000004,6.504
+4973,Spørgsmål nr. 12 af (H-0801/99):,Question No 12 by (H-0801/99):,7.445999999999998,5.562000000000001,6.504
+3098,Spørgsmål nr. 33 af (H-0829/99):,Question No 33 by (H-0829/99):,7.445999999999998,5.562000000000001,6.504
+2918,Spørgsmål nr. 28 af (H-0781/99):,Question No 28 by (H-0781/99):,7.445999999999998,5.562000000000001,6.504
+3299,Spørgsmål nr. 41 af (H-0813/99):,Question No 41 by (H-0813/99):,7.445999999999998,5.562000000000001,6.504
+3249,Spørgsmål nr. 39 af (H-0807/99):,Question No 39 by (H-0807/99):,7.445999999999998,5.562000000000001,6.504
+3233,Spørgsmål nr. 38 af (H-0805/99):,Question No 38 by (H-0805/99):,7.445999999999998,5.562000000000001,6.504
+7972,En sådan bekymring er uberettiget.,Such a concern is misplaced.,9.329999999999998,3.678000000000001,6.504
+2558,Alt dette er velmente råd.,All this is well-intentioned advice.,1.7940000000000005,11.214000000000006,6.504000000000003
+9579,For det andet er det nye modeord fleksibilitet.,"Secondly, the new ""in"" word is flexibility.",6.120000000000001,6.965714285714284,6.542857142857143
+2837,Jeg hilser også hvidbogen velkommen.,I also welcome the White Paper.,11.214000000000006,1.9800000000000004,6.597000000000003
+1565,Vi må tage dette ansvar alvorligt.,We need to take this responsibility seriously.,4.334999999999997,8.984285714285715,6.659642857142856
+5905,Det er derfor et godt eksempel.,"This constitutes a good example, therefore.",1.9800000000000004,11.399999999999999,6.6899999999999995
+1568,Der kommer vi virkelig i vanskeligheder.,That is where we really get into difficulty.,9.044999999999998,4.353750000000002,6.699375
+5020,"Jeg forstår, at det er et provokerende spørgsmål.",I appreciate that it is a provocative question.,7.297499999999999,6.120000000000001,6.70875
+7473,De fastsætter så selv priserne.,They would then determine their own prices.,6.504000000000001,6.965714285714284,6.734857142857143
+7188,I den fælles holdning står der 2006.,The common position stipulates 2006.,2.2557142857142836,11.214000000000006,6.734857142857145
+6127,Af alle prioriteter vejer dette tungest.,"Of all priorities, this one is the most pressing.",9.044999999999998,4.526666666666667,6.785833333333333
+4739,"Mange tak, hr. minister.","Thank you, Minister.",5.297499999999999,8.329999999999998,6.813749999999999
+3702,Selvfølgelig er det ikke acceptabelt.,It is clear that is not acceptable.,12.155999999999999,1.5828571428571436,6.869428571428571
+6306,"Det er det, der skal indlede denne forhandling.",It will have to initiate these negotiations.,6.120000000000001,7.6385714285714315,6.879285714285716
+7079,Derfor er der en masse ændringsforslag.,We therefore have a number of amendments.,8.260000000000002,5.620000000000001,6.940000000000001
+1826,Parlamentet var positivt over for denne tekst.,Parliament voted in favour of this text.,8.984285714285715,4.947142857142854,6.965714285714284
+4187,"Det håber jeg, at Europa-Parlamentet vil forstå.",I hope the House will understand that.,10.329999999999998,3.6014285714285705,6.965714285714284
+4573,De blev behandlet som de værste kriminelle.,They were treated like the worst criminals.,6.965714285714284,6.965714285714284,6.965714285714284
+4247,Sandhedens time nærmer sig.,The moment of truth is approaching.,8.829999999999998,5.120000000000001,6.975
+1515,Forhandlingen under ét er afsluttet.,The joint debate is closed.,11.214000000000006,2.735999999999997,6.975000000000001
+3500,Hr. Kinnock fremlægger sit forslag i næste måned.,Mr Kinnock will present his proposal next month.,7.297499999999999,6.708749999999998,7.003124999999999
+2795,Det kan ikke fortsætte.,That cannot continue.,4.120000000000001,9.899999999999999,7.01
+7116,Der findes en masse gode ændringsforslag.,There are a number of sound amendments.,9.829999999999998,4.274285714285714,7.052142857142856
+8230,Det er meget muligt.,This sounds perfectly feasible.,0.5874999999999986,13.54,7.063749999999999
+6259,Har man opnået resultater?,Have we achieved results?,7.6525,6.475000000000001,7.063750000000001
+5687,Vi er meget skuffede.,We are extremely disappointed.,1.7650000000000006,12.362500000000004,7.063750000000002
+9622,Det bedømmes Kommissionen på.,This is what the Commission will be judged on.,11.184999999999995,2.956666666666667,7.070833333333331
+5736,"Tak, kære kolleger.","Thank you, ladies and gentlemen.",6.760000000000002,7.445999999999998,7.103
+9818,Dette fundament er helt klart det indre marked.,That foundation is clearly the single market.,6.120000000000001,8.311428571428571,7.215714285714286
+7114,Derfor har vi brug for et pressionsinstrument.,This means that we need a pressure instrument.,8.984285714285715,5.53125,7.257767857142857
+5807,Det afhænger af de pågældende lovgivere.,"Well, that depends on who the legislators are.",9.044999999999998,5.53125,7.288124999999999
+5650,"Det bør være vores opgave, ikke politisk poseren.","That should be our task, not political posturing.",7.297499999999999,7.297499999999999,7.297499999999999
+2623,"Jeg mener, at denne budgetpost bør genindføres.",I think we should reinstate this budget line.,9.657142857142855,4.942499999999999,7.299821428571427
+5765,Alle disse elementer skal være til stede.,All these elements have to apply cumulatively.,5.620000000000001,8.984285714285715,7.302142857142858
+1471,Hvorfor?,Why?,16.75,-2.09,7.33
+6584,Der er tale om en makrofinansiel bistand.,We are talking about macrofinancial aid.,5.620000000000001,9.044999999999998,7.3325
+8792,Min gruppe vil støtte ændringsforslag 22.,My group will be supporting Amendment No. 22.,9.829999999999998,4.942499999999999,7.386249999999999
+575,Dette er målene for disse retningslinjer.,This is the purpose of these guidelines.,9.829999999999998,4.947142857142854,7.388571428571426
+126,"Tak, hr. Poettering.","Thank you, Mr Poettering.",8.329999999999998,6.475000000000001,7.4025
+3345,Jeg takker kommissæren for svaret.,I would thank the Commissioner for her answer.,9.329999999999998,5.53125,7.430624999999999
+3961,Et meget vigtigt forslag.,A very important proposal indeed.,6.475000000000001,8.387999999999998,7.4315
+7586,De kan derfor ikke accepteres.,They cannot therefore be approved.,5.562000000000001,9.329999999999998,7.446
+1689,Ekspertgruppen er for dette.,The Committee of Wise Men supports this.,10.0075,4.947142857142854,7.477321428571427
+3186,Jeg vil gerne takke kommissæren for hendes svar.,"Thank you, Commissioner for your reply.",6.708749999999998,8.260000000000002,7.484375
+6733,"Hr. kommissær, en aftale er en aftale.","Commissioner, an agreement is an agreement.",3.6014285714285705,11.399999999999999,7.500714285714285
+5751,Der er to grundlæggende formål med meddelelsen.,The basic aim of the communication is twofold.,9.657142857142855,5.53125,7.594196428571427
+5405,AKTUEL OG UOPSÆTTELIG DEBAT,TOPICAL AND URGENT DEBATE,8.829999999999998,6.475000000000001,7.6525
+1588,Men medlemslandene har ikke spillet med.,But the Member States failed to cooperate.,9.044999999999998,6.2928571428571445,7.668928571428571
+9964,Helt sikkert ikke.,Certainly not!,5.189999999999998,10.184999999999999,7.687499999999998
+1682,Samling på dette afgrænsede område.,"So, unification in this small area.",10.272000000000002,5.120000000000001,7.6960000000000015
+9972,Man kan drage konklusionerne.,You may draw your own conclusions.,11.184999999999995,4.334999999999997,7.759999999999996
+8930,Jeg forstår jeres bekymring.,I can understand your concern.,10.0075,5.562000000000001,7.784750000000001
+2451,Vi har allerede en lovgivning.,We already have legislation.,5.562000000000001,10.0075,7.784750000000001
+2468,"Mange tak, fru kommissær.","Thank you very much, Commissioner.",6.475000000000001,9.329999999999998,7.9025
+7618,"Mange tak, fru kommissær.","Thank you very much, Commissioner.",6.475000000000001,9.329999999999998,7.9025
+794,"Mange tak, hr. kommissær.","Thank you very much, Commissioner.",6.475000000000001,9.329999999999998,7.9025
+3885,Parlamentet er et særskilt emne.,Parliament is a separate subject.,7.445999999999998,8.387999999999998,7.916999999999998
+2286,Der findes også gode selskaber.,There are reputable companies too.,6.504000000000001,9.329999999999998,7.917
+7564,Det er endnu ikke noget uoverkommeligt problem.,It is still not an insurmountable problem.,9.657142857142855,6.2928571428571445,7.975
+2598,Vi har heldigvis Golfstrømmen.,We are fortunate in having the Gulf Stream.,12.362500000000004,3.7650000000000006,8.063750000000002
+3963,"Jeg forstår ikke helt, hvordan det hænger sammen.",I cannot fully grasp the underlying rationale.,7.297499999999999,8.984285714285715,8.140892857142857
+85,Hr. Hänsch repræsenterede Dem dér.,Mr Hänsch represented you on this occasion.,9.329999999999998,6.965714285714284,8.147857142857141
+9410,Jeg støtter udvidelsen af Den Europæiske Union.,I support the enlargement of the European Union.,9.657142857142855,6.708749999999998,8.182946428571427
+3836,Måske er henvisningen til deres poster upræcis.,Perhaps the reference to the posts is imprecise.,9.657142857142855,6.708749999999998,8.182946428571427
+5437,Det er meget foruroligende.,That is deeply disturbing.,8.829999999999998,7.6525,8.241249999999999
+7387,De fleste tekniske spørgsmål er afklaret.,Most of the technical issues have been resolved.,9.829999999999998,6.708749999999998,8.269374999999998
+5326,"Det viser, hvor vanskelige disse sager er.",This indicates how difficult these dossiers are.,6.2928571428571445,10.329999999999998,8.311428571428571
+3265,Det sidste spørgsmål drejer sig om bidraget.,The last question concerns the amount granted.,7.6385714285714315,8.984285714285715,8.311428571428573
+6066,Bruxelles ved bedre.,Brussels knows best.,8.329999999999998,8.329999999999998,8.329999999999998
+3788,Vi ønsker ikke at afskaffe finanskontrollen.,We do not want financial control to be abolished.,12.184999999999995,4.526666666666667,8.355833333333331
+2408,I sidste ende skal forureneren betale.,"Ultimately, the polluter must pay.",7.475000000000001,9.329999999999998,8.4025
+3928,Personalesystemet er for stift.,The staffing system is too rigid.,13.54,3.5500000000000007,8.545
+5835,Dette spørgsmål er i allerhøjeste grad aktuelt.,This issue is extremely topical.,9.657142857142855,7.445999999999998,8.551571428571426
+5258,Det ville være økonomisk selvmord at fortsætte.,To continue would be economic suicide.,9.657142857142855,7.475000000000001,8.566071428571428
+979,Det ene er subsidiariteten.,One is subsidiarity.,8.829999999999998,8.329999999999998,8.579999999999998
+8098,Glædelig Valentins Dag!,Happy Valentine' s Day!,13.04,4.120000000000001,8.58
+4939,Jeg takker rådsformanden for hans svar.,I thank the President-in-Office for his reply.,8.260000000000002,8.984285714285715,8.622142857142858
+3843,Selvfølgelig kan dette kun hilses velkomment.,"Naturally, this is only to be welcomed.",12.970000000000006,4.274285714285714,8.62214285714286
+3608,Det er nødvendigt med snarlige ændringer.,Urgent change is required today.,9.829999999999998,7.445999999999998,8.637999999999998
+44,Hvorfor er der ingen brandinstrukser?,Why are there no fire instructions?,12.155999999999999,5.120000000000001,8.638
+4976,Men der står stadig nogle spørgsmål tilbage.,But there are some questions still outstanding.,7.6385714285714315,9.657142857142855,8.647857142857143
+2041,Olieforurening i Frankrig,Oil slick off the French coast,16.18,1.1950000000000003,8.6875
+3925,Kommissionen har ikke personale nok.,The Commission does not have enough staff.,11.214000000000006,6.2928571428571445,8.753428571428575
+7566,Vi har allerede en infrastruktur.,We already have an infrastructure.,8.387999999999998,9.329999999999998,8.858999999999998
+2059,Vi afventer resultaterne med stor interesse.,We await the outcome with great interest.,12.184999999999995,5.620000000000001,8.902499999999998
+7724,Derfor stemte jeg for ændringsforslagene.,That is why I voted in favour of the amendments.,15.924,1.939,8.9315
+3388,Decharge 1997,1997 discharge,7.829999999999998,10.184999999999999,9.007499999999999
+6421,Jeg har dog fremsat et ændringsforslag.,"Nevertheless, I have tabled an amendment.",8.260000000000002,9.829999999999998,9.045
+5684,Værdier skal foretrækkes frem for magt.,Values should take precedence over power.,8.260000000000002,9.829999999999998,9.045
+8822,Deres argument var tungtvejende.,Its argument was one of priority.,14.717500000000001,3.5500000000000007,9.133750000000001
+5106,Det drejer sig om en styrkelse af banktilsynet.,We need stronger banking supervision.,6.120000000000001,12.155999999999999,9.138
+6,(Parlamentet iagttog stående et minuts stilhed,(The House rose and observed a minute' s silence),13.754999999999995,4.526666666666667,9.140833333333331
+8741,Min gruppe vil ikke støtte disse ændringsforslag.,My group will not be supporting those amendments.,11.002857142857145,7.297499999999999,9.150178571428572
+2131,Endelig er der mangelen på gennemsigtighed.,"Finally, there is the lack of transparency.",11.399999999999999,6.965714285714284,9.182857142857141
+1133,Det hastede derfor med at få dem moderniseret.,"For this reason, modernisation was essential.",5.53125,12.970000000000006,9.250625000000003
+3711,Vores egen personalepolitik er forældet.,Our own staff policy is outdated.,14.982,3.5500000000000007,9.266
+2177,De er en konsekvens af menneskenes inkonsekvens.,They are the result of human thoughtlessness.,10.329999999999998,8.311428571428571,9.320714285714285
+3235,Hvilke kommissærer indgår i denne gruppe?,Which Commissioners are members of this group?,9.829999999999998,8.984285714285715,9.407142857142857
+6218,Alligevel er jeg optimistisk.,"I am, however, optimistic.",11.184999999999995,7.6525,9.418749999999998
+9822,Dette er Kommissionens egen undersøgelse.,This is the Commission' s own survey.,15.924,2.9285714285714306,9.426285714285715
+7582,Vi kan acceptere alle disse ændringsforslag.,These amendments can all be approved.,12.184999999999995,6.689999999999998,9.437499999999996
+7673,Dette formål fortjener al vores støtte.,This objective deserves our total support.,8.260000000000002,10.615000000000002,9.437500000000002
+2056,Under hvilke vilkår består dette kendskab?,What are the conditions for this recognition?,10.615000000000002,8.311428571428571,9.463214285714287
+822,Betænkningen er således taget af dagsordenen.,The report is hereby withdrawn from the agenda.,12.970000000000006,6.120000000000001,9.545000000000003
+5434,(Bifald fra PSE-gruppen),(Applause from the PSE Group),14.61,4.620000000000001,9.615
+81,(Bifald fra PSE-gruppen),(Applause from the PSE Group),14.61,4.620000000000001,9.615
+7488,(Bifald fra PSE-gruppen),(Applause from the PSE Group),14.61,4.620000000000001,9.615
+6747,Projektet har været langvarigt og vanskeligt.,The project has been long and problematic.,12.970000000000006,6.2928571428571445,9.631428571428575
+7404,Den fælles holdning er et fornuftigt kompromis.,The common position is a reasonable compromise.,9.657142857142855,9.657142857142855,9.657142857142855
+3620,De skal gennemføres hurtigst muligt.,They must be implemented without delay.,11.214000000000006,8.260000000000002,9.737000000000004
+1221,Samfundet overlader sig selv til markedet.,Society is surrendering itself to the economy.,10.615000000000002,8.984285714285715,9.799642857142858
+3872,Romano Prodi lovede en revolution.,Romano Prodi promised a revolution.,9.329999999999998,10.272000000000002,9.801
+5139,Globaliseringen i sig selv er positiv.,"In itself, globalisation is positive.",7.475000000000001,12.155999999999999,9.8155
+5043,Hermed er spørgetiden til Rådet afsluttet.,That concludes questions to the Council.,10.615000000000002,9.044999999999998,9.83
+2116,Jeg kan bevidne dette bemærkelsesværdige arbejde.,I can testify to this remarkable work.,16.11,3.6014285714285705,9.855714285714285
+5852,Mit andet spørgsmål angår bevisbyrden.,My second question concerns the burden of proof.,13.097999999999999,6.708749999999998,9.903374999999999
+6625,Europa-Kommissionen kan ikke betale for alt.,The EU Commission cannot pay for everything.,12.184999999999995,7.6385714285714315,9.911785714285713
+2399,(Formanden fratog taleren ordet),(The President cut the speaker off),14.717500000000001,5.120000000000001,9.918750000000001
+798,Godkendelse af protokollen fra foregående møde,Adoption of the Minutes of the previous sitting,13.754999999999995,6.120000000000001,9.937499999999998
+8083,Godkendelse af protokollen fra foregående møde,Approval of the Minutes of the previous sitting,13.754999999999995,6.120000000000001,9.937499999999998
+5368,Godkendelse af protokollen fra foregående møde,Adoption of the Minutes of the previous sitting,13.754999999999995,6.120000000000001,9.937499999999998
+7205,Forureneren skal betale.,The polluter should pay.,14.61,5.297499999999999,9.95375
+2720,Vi må også sikre ekspertise og gennemsigtighed.,We must also ensure excellence and transparency.,9.657142857142855,10.329999999999998,9.993571428571427
+8237,Det er alvorlige anklager.,These are serious allegations.,7.6525,12.362500000000004,10.007500000000002
+5672,Den slags erklæringer er uacceptable!,"Well, we cannot accept such statements.",12.155999999999999,8.260000000000002,10.208
+8683,Investeringerne skal have en visionær retning.,The investment needs to be visionary.,13.754999999999995,6.689999999999998,10.222499999999997
+2804,"Tak for Deres erklæring, hr. kommissær.","Thank you, Commissioner, for your statement.",8.260000000000002,12.184999999999995,10.222499999999998
+4090,Jeg bifalder Parlamentets støtte til dette.,I welcome Parliament's support for that.,11.399999999999999,9.044999999999998,10.222499999999998
+7542,Snarere tværtimod!,It is quite the opposite.,19.604999999999997,0.8520000000000003,10.228499999999999
+3511,Det gælder også for indberettere.,This also applies to whistle-blowers.,8.387999999999998,12.155999999999999,10.271999999999998
+2882,Man kan ikke lovgive om forbrugernes tillid.,You cannot legislate for consumer confidence.,7.6385714285714315,12.970000000000006,10.304285714285719
+8078,Afbrydelse af sessionen,Adjournment of the session,13.04,7.6525,10.34625
+5797,Er det Kommissionen?,The Commission?,8.329999999999998,12.54,10.434999999999999
+4114,Parlamentet har ofte påpeget dette.,Parliament has frequently made that point.,10.272000000000002,10.615000000000002,10.443500000000002
+3595,Antallet af tjenestegrene er reduceret.,The number of departments has been reduced.,14.04,6.965714285714284,10.502857142857142
+7070,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+2471,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+6572,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+6491,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+325,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+250,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+3581,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+795,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+7619,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+4740,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+6880,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+6742,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+5365,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+628,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+4124,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+5910,Forhandlingen er afsluttet.,The debate is closed.,19.32,1.7650000000000006,10.5425
+8911,Derfor har jeg stillet disse tre ændringsforslag.,Therefore I am putting forward three amendments.,11.002857142857145,10.329999999999998,10.666428571428572
+6571,"Tak, hr. kommissær.","Thank you, Commissioner.",6.760000000000002,14.61,10.685
+7068,"Tak, fru kommissær.","Thank you, Commissioner.",6.760000000000002,14.61,10.685
+6879,"Tak, fru kommissær.","Thank you, Commissioner.",6.760000000000002,14.61,10.685
+5908,"Tak, fru kommissær.","Thank you, Commissioner.",6.760000000000002,14.61,10.685
+1567,Spørgsmålet er: Hvem skal retsforfølge?,The question is: who prosecutes?,14.04,7.445999999999998,10.742999999999999
+1468,Mange talere har understreget dette.,Many speakers have underlined this.,11.214000000000006,10.272000000000002,10.743000000000004
+7846,"stemmernes vægtningsfaktor i Rådet,",weighting of votes in the Council,18.25,3.5500000000000007,10.9
+8981,Kommissionen bør forfølge denne kurs.,The Commission must continue along these lines.,12.155999999999999,9.657142857142855,10.906571428571427
+3884,Denne betænkning handler om Kommissionen.,This report is about the Commission.,15.924,5.905000000000001,10.9145
+5743,Forsigtighedsprincippet er ikke et nyt koncept.,The precautionary principle is not a new concept.,14.54,7.297499999999999,10.91875
+3058,Er oplysningen korrekt?,Are these reports accurate?,13.04,8.829999999999998,10.934999999999999
+4545,Lige som førhen står mange spørgsmål åbne.,Numerous questions are still outstanding.,6.2928571428571445,15.924,11.108428571428572
+1514,"Tak, kommissær Monti.","Thank you, Commissioner Monti.",9.899999999999999,12.362500000000004,11.131250000000001
+8095,"Fru formand, til forretningsordenen.","Madam President, on a point of order.",19.427500000000002,2.9285714285714306,11.178035714285716
+8104,"Fru formand, til forretningsordenen.","Madam President, on a point of order.",19.427500000000002,2.9285714285714306,11.178035714285716
+8089,"Fru formand, til forretningsordenen.","Madam President, on a point of order.",19.427500000000002,2.9285714285714306,11.178035714285716
+2718,Det første hovedprincip er uafhængighed.,The first key concern is independence.,14.982,7.475000000000001,11.2285
+4522,"Scoreboard, lyder på tysk næsten som skateboard.",Scoreboard sounds like skateboard in German.,10.329999999999998,12.184999999999995,11.257499999999997
+2946,Jeg har forklaret Kommissionens holdning.,I have explained the position of the Commission.,15.924,6.708749999999998,11.316374999999999
+1688,Parlamentet er for dette.,Parliament supports this.,6.475000000000001,16.18,11.3275
+7867,Er hysteriet spontant?,Is this hysteria spontaneous?,11.470000000000006,11.184999999999995,11.3275
+8081,Genoptagelse af sessionen,Resumption of the session,16.18,6.475000000000001,11.3275
+0,Genoptagelse af sessionen,Resumption of the session,16.18,6.475000000000001,11.3275
+5376,Genoptagelse af sessionen,Resumption of the session,16.18,6.475000000000001,11.3275
+4694,(Formanden afbrød taleren),(The President cut the speaker off),17.75,5.120000000000001,11.435
+7880,(Formanden afbrød taleren),(The President cut the speaker off),17.75,5.120000000000001,11.435
+2654,(Formanden afbrød taleren),(The President cut the speaker off),17.75,5.120000000000001,11.435
+5520,(Formanden afbrød taleren),(The President cut the speaker off),17.75,5.120000000000001,11.435
+6076,(Formanden afbrød taleren),(The President cut the speaker off),17.75,5.120000000000001,11.435
+6011,Derfor er gennemskuelighed påkrævet.,That is why we need transparency.,19.427500000000002,3.5500000000000007,11.488750000000001
+6237,Skotland vil blive fuldstændig usynligt!,It will become totally invisible!,14.982,8.387999999999998,11.684999999999999
+3968,Til sidst spørgsmålet om tjenestemændene.,"Finally, the issue of officials.",15.924,7.445999999999998,11.684999999999999
+5734,"Tak, hr. kommissær Kinnock.","Thank you, Commissioner Kinnock.",8.829999999999998,14.717500000000001,11.77375
+161,(Den således ændrede dagsorden godkendtes),(The order of business was adopted thus amended),16.866,6.708749999999998,11.787374999999999
+7637,(Det fælles udkast godkendtes),(Parliament approved the joint text),12.362500000000004,11.214000000000006,11.788250000000005
+7633,(Det fælles udkast godkendtes),(Parliament approved the joint text),12.362500000000004,11.214000000000006,11.788250000000005
+7635,(Det fælles udkast godkendtes),(Parliament approved the joint text),12.362500000000004,11.214000000000006,11.788250000000005
+6744,Altener,ALTENER,12.04,12.04,12.04
+1781,AFSTEMNING,VOTE,26.17,-2.09,12.040000000000001
+7621,AFSTEMNING,Vote,26.17,-2.09,12.040000000000001
+6490,"Mange tak, hr. kommissær Bolkestein.","Thank you very much, Commissioner Bolkestein.",11.214000000000006,12.970000000000006,12.092000000000006
+2057,Hvilke garantier eksisterer der for pålidelighed?,What guarantees are there of its reliability?,16.11,8.311428571428571,12.210714285714285
+9586,Det er gennemskuelighed!,That is transparency.,14.61,9.899999999999999,12.254999999999999
+4321,Desværre ikke ret meget.,"Unfortunately, very little.",5.297499999999999,19.32,12.30875
+902,EKSF-traktaten udløber snart.,The ECSC Treaty is due to expire shortly.,22.46,2.5874999999999986,12.52375
+1094,Markedskræfterne kan ramme på forkert måde.,Vulnerable people find themselves hardest hit.,11.399999999999999,13.754999999999995,12.577499999999997
+3580,"Mange tak, fru kommissær Schreyer.","Thank you, Commissioner Schreyer.",9.329999999999998,15.895000000000003,12.6125
+2084,Beslutningsforslagenes tid er forbi.,The time for resolutions has passed.,19.427500000000002,5.905000000000001,12.666250000000002
+8077,Hermed er afstemningstiden afsluttet.,That concludes the vote.,20.604999999999997,5.297499999999999,12.951249999999998
+6471,De øvrige ændringsforslag er ikke acceptable.,The other amendments are unacceptable.,12.970000000000006,13.097999999999999,13.034000000000002
+9574,For det første slanke sig.,"First, streamlining.",1.7940000000000005,24.314999999999998,13.054499999999999
+1959,Betænkning af von Wogau (A5-0069/1999),von Wogau Report (A5-0069/1999),13.097999999999999,13.54,13.318999999999999
+109,(Bifald fra PPE-DE-gruppen),(Applause from the PPE-DE Group),19.32,7.445999999999998,13.383
+2128,Dernæst er der bekvemmelighedsflagene.,"Next, we have flags of convenience.",21.7825,5.120000000000001,13.45125
+2372,Stater kan udføre havneinspektioner.,States can carry out port inspections.,19.427500000000002,7.475000000000001,13.451250000000002
+2677,Forhandlingen er afsluttet.,That concludes the debate.,19.32,7.6525,13.48625
+2911,Forhandlingen er afsluttet.,That concludes the debate.,19.32,7.6525,13.48625
+7857,Fælles beslutningsforslag om Østrig,Joint resolution on Austria,18.25,8.829999999999998,13.54
+6574,Ekstraordinær finansiel bistand til Kosovo,Exceptional financial aid to Kosovo,16.866,10.272000000000002,13.569
+3385,Hermed er spørgetiden til Kommissionen afsluttet.,That concludes Question Time.,16.11,11.184999999999995,13.647499999999997
+6563,Bekymringerne er berettigede.,The unease is justified.,22.46,5.297499999999999,13.87875
+5821,Det gælder bromholdige flammeskyende midler.,It is about brominated flame retardants.,18.75,9.044999999999998,13.897499999999999
+4742,Effektiviteten har virkelig været mærkbar.,Their efficiency has been truly remarkable.,16.866,11.399999999999999,14.133
+5732,Støtter Kommissionen Rådet?,Does the Commission support the Council?,19.32,9.044999999999998,14.1825
+6392,Ingen af resultaterne kan være tilfredsstillende.,Neither outcome would be satisfactory.,16.11,13.097999999999999,14.604
+7280,Dette er fuldstændigt uacceptabelt.,This is totally unacceptable.,18.25,11.184999999999995,14.717499999999998
+3139,Spørgsmål til Anna Diamantopoulou,Questions to Mrs Diamantopoulou,15.895000000000003,13.54,14.717500000000001
+5614,(Kraftigt bifald),(Loud applause),17.25,12.54,14.895
+5470,(Kraftigt bifald),(Loud applause),17.25,12.54,14.895
+831,Reform af den europæiske konkurrencepolitik,Reform of European competition policy,17.808,12.155999999999999,14.982
+3487,Situationen dér er fuldstændig uacceptabel.,The situation there is totally unacceptable.,17.808,12.184999999999995,14.996499999999997
+4749,Spørgetid (Rådet),Question Time (Council),17.25,13.04,15.145
+6426,Det kræver retssikkerheden.,Legal security requires this.,19.32,11.184999999999995,15.252499999999998
+1779,"Tak, kommissær Schreyer.","Thank you, Commissioner Schreyer.",14.61,15.895000000000003,15.252500000000001
+5800,Hvilken rolle spiller Videnskabsudvalget?,What is the role of the scientific committees?,25.314999999999998,5.53125,15.423124999999999
+3122,Dette er selvfølgelig uacceptabelt.,That is naturally unacceptable.,18.25,13.54,15.895
+2662,Naturlige levesteder blev ødelagt.,Natural habitats were destroyed.,17.072499999999998,14.717500000000001,15.895
+8204,Fredag: Formanden.,Relating to Friday: President.,19.604999999999997,12.362500000000004,15.98375
+9662,(Spredt bifald),(Limited applause),12.54,19.604999999999997,16.072499999999998
+9081,"Naturligvis, hr.","Absolutely, Mr Napolitano.",14.895000000000003,17.75,16.3225
+2543,Vores nuværende programmer skal fremskyndes.,Current programmes must be accelerated.,18.75,14.04,16.395
+7965,"Fascismen, nynazismen er kræftsygdomme!",Fascism and neo-Nazism are cancers!,22.96,10.272000000000002,16.616
+7870,De okkulte netværk?,Underground networks?,6.760000000000002,26.67,16.715000000000003
+1814,Betænkning af Koch (A5-0105/1999),Koch Report (A5-0105/1999),15.895000000000003,17.75,16.8225
+1830,Betænkning af Koch (A5-0104/1999),Koch Report (A5-0104/1999),15.895000000000003,17.75,16.8225
+5407,Regeringsforhandlingerne i Østrig,Talks in Austria on forming a government,28.740000000000002,4.947142857142854,16.84357142857143
+8308,Teknisk bistand er dog alligevel nødvendig.,"Nevertheless, technical assistance is necessary.",11.399999999999999,22.518,16.959
+8221,(Forslaget vedtoges),(Parliament gave its assent),24.314999999999998,10.0075,17.16125
+8203,(Forslaget vedtoges),(Parliament gave its assent),24.314999999999998,10.0075,17.16125
+2390,Malta går i tiltrædelsesforhandlinger.,Malta is entering the accession negotiations.,21.7825,12.970000000000006,17.376250000000002
+1800,Procedure uden forhandling:,Procedure without debate:,19.32,16.18,17.75
+7757,Direktivet bibeholdes.,The directive remains in place.,29.025,6.504000000000001,17.764499999999998
+7631,(Forslaget til beslutning vedtoges),(Parliament adopted the resolution),18.25,18.25,18.25
+7655,(Forslaget til beslutning vedtoges),(Parliament adopted the resolution),18.25,18.25,18.25
+3916,Finansforordningen skal ændres.,The Financial Regulation should be amended.,25.599999999999994,11.399999999999999,18.499999999999996
+6986,Kulturel aktivitet skaber identitet.,Cultural activity creates identity.,19.427500000000002,18.25,18.83875
+5383,Dagsordenen,Agenda,30.880000000000003,7.329999999999998,19.105
+9113,Dagsordenen,Agenda,30.880000000000003,7.329999999999998,19.105
+8143,Arbejdsplan,Agenda,30.880000000000003,7.329999999999998,19.105
+65,Arbejdsplan,Agenda,30.880000000000003,7.329999999999998,19.105
+7845,"kommissærernes antal og ansvarsområder,",the number and responsibilities of Commissioners,22.96,15.325000000000003,19.142500000000002
+7771,Betænkning af Berger (A5-0007/2000),Berger Report (A5-0007/2000),18.25,20.89,19.57
+1930,Betænkning af Berend (A5-0107/1999),Berend Report (A5-0107/1999),18.25,20.89,19.57
+1986,Betænkning af Rapkay (A5-0078/1999),Rapkay Report (A5-0078/1999),18.25,20.89,19.57
+2023,Betænkning af Langen (A5-0073/1999),Langen Report (A5-0073/1999),18.25,20.89,19.57
+5550,"(Bifald, tilråb)","(Applause, heckling)",14.895000000000003,24.314999999999998,19.605
+8168,(Forslaget vedtoges) Formanden.,(Parliament gave its assent) President.,25.599999999999994,14.04,19.819999999999997
+8195,(Forslaget vedtoges) Formanden.,(Parliament gave its assent) President.,25.599999999999994,14.04,19.819999999999997
+9104,(Forslaget vedtoges),(Parliament approved the request),24.314999999999998,15.895000000000003,20.105
+3075,Presserapporterne var misvisende.,The newspaper reports were misleading.,28.740000000000002,13.097999999999999,20.919
+7670,Betænkning af McNally (A5-0082/1999),McNally Report (A5-0082/1999),19.427500000000002,22.46,20.94375
+4556,Parlamentet ændrede aftaleteksten.,Parliament has amended the contractual text.,30.309999999999995,12.184999999999995,21.247499999999995
+5375,(Protokollen godkendtes),(The Minutes were approved),33.735,8.829999999999998,21.2825
+9071,(Protokollen godkendtes),(The Minutes were approved),33.735,8.829999999999998,21.2825
+830,(Protokollen godkendtes),(The Minutes were approved),33.735,8.829999999999998,21.2825
+4127,Fredsprocessen i Mellemøsten (fortsættelse),Middle East peace process (continuation),27.67,14.982,21.326
+5610,(Bifald),(Applause),16.75,26.17,21.46
+5393,(Bifald),(Applause),16.75,26.17,21.46
+9597,(Bifald),(Applause),16.75,26.17,21.46
+9258,(Bifald),(Applause),16.75,26.17,21.46
+9112,(Bifald),(Applause),16.75,26.17,21.46
+5546,(Bifald),(Applause),16.75,26.17,21.46
+5675,(Bifald),(Applause),16.75,26.17,21.46
+5568,(Bifald),(Applause),16.75,26.17,21.46
+5450,(Bifald),(Applause),16.75,26.17,21.46
+5421,(Bifald),(Applause),16.75,26.17,21.46
+5705,(Bifald),(Applause),16.75,26.17,21.46
+9231,(Bifald),(Applause),16.75,26.17,21.46
+9589,(Bifald),(Applause),16.75,26.17,21.46
+5486,(Bifald),(Applause),16.75,26.17,21.46
+9584,(Bifald),(Applause),16.75,26.17,21.46
+5562,(Bifald),(Applause),16.75,26.17,21.46
+5572,(Bifald),(Applause),16.75,26.17,21.46
+5044,Kapitalafgift,Capital tax,40.3,3.120000000000001,21.71
+7793,Betænkning af Marinho (A5-0003/2000),Marinho Report (A5-0003/2000):,19.427500000000002,24.03,21.72875
+9117,(Dagsordenen godkendtes),(Parliament gave its assent),33.735,10.0075,21.87125
+4738,(Vedvarende bifald),(Sustained applause),21.96,24.314999999999998,23.1375
+9906,Principerklæringer er utilstrækkelige!,Declarations of principle are not enough.,36.589999999999996,9.829999999999998,23.209999999999997
+4031,Følgelig overbringelsen.,Hence the transmission.,33.735,13.04,23.3875
+2005,Betænkning af Jonckheer (A5-0087/1999),Jonckheer Report (A5-0087/1999),21.7825,25.599999999999994,23.691249999999997
+8175,(Forslaget forkastedes),(Parliament rejected the proposal),31.380000000000003,17.072499999999998,24.22625
+118,(Forslaget forkastedes) Formanden.,(Parliament rejected the request) President.,30.309999999999995,18.75,24.529999999999998
+5739,Anvendelse af forsigtighedsprincippet,Recourse to the precautionary principle,35.019999999999996,14.04,24.529999999999998
+1782,(Kommissionens forslag godkendtes),(Parliament approved the Commission proposal),30.309999999999995,19.692,25.000999999999998
+8189,(Forslaget forkastedes) Formanden.,(Parliament rejected the proposal) President.,30.309999999999995,19.692,25.000999999999998
+1799,(Kommissionens forslag godkendtes),(Parliament approved the Commission proposal),30.309999999999995,19.692,25.000999999999998
+1797,(Kommissionens forslag godkendtes),(Parliament approved the Commission proposal),30.309999999999995,19.692,25.000999999999998
+1847,Betænkning af Schroedter (A5-0108/1999),Schroedter Report (A5-0108/1999),22.96,27.17,25.065
+7073,Udrangerede køretøjer,End-of-life vehicles,26.67,24.314999999999998,25.4925
+2912,Spørgetid (Kommissionen),Question Time (Commission),33.735,17.75,25.7425
+8146,Formanden.,President.,26.17,26.17,26.17
+8176,Formanden.,President.,26.17,26.17,26.17
+8156,Formanden.,President.,26.17,26.17,26.17
+3992,"""Omstændelig"".",'Long-winded' .,45.01,12.54,28.775
+8155,(Forslaget vedtoges)Torsdag:,(Parliament gave its assent)Relating to Thursday:,43.15500000000001,16.11,29.632500000000004
+2679,Fødevaresikkerhed,Food safety,59.13999999999999,3.120000000000001,31.129999999999995
+1783,Heaton-Harris (PPE-DE).,Heaton-Harris (PPE-DE).,31.380000000000003,31.380000000000003,31.380000000000003
+7669,STEMMEFORKLARINGER,EXPLANATIONS OF VOTE,63.85,8.329999999999998,36.09
+6913,Tillykke!,Congratulations!,21.46,54.43,37.945
+6319,Grænseoverskridende tjenesteydelser,Cross-border services,59.63999999999999,26.67,43.155
+327,Samordning strukturfondene/Samhørighedsfonden,Structural Funds - Cohesion Fund coordination,83.19,12.970000000000006,48.08
+5911,Regeringskonferencen,Intergovernmental Conference,73.27000000000001,43.15500000000001,58.212500000000006

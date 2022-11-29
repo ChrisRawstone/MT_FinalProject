@@ -49,7 +49,7 @@ EOS_token = "<EOS>"
 
 SOS_index = 0
 EOS_index = 1
-MAX_LENGTH = 200
+MAX_LENGTH = 50
 BATCH_SIZE = 4
 
 
@@ -412,9 +412,9 @@ def main():
     initial_learning_rate = 0.001
     src_lang = 'dk'
     tgt_lang = 'en'
-    train_file = 'data/traindata.txt'
-    dev_file = 'data/validationdata.txt'
-    test_file = 'data/testdata.txt'
+    train_file = 'data//traindata.txt'
+    dev_file = 'data//validationdata.txt'
+    test_file = 'data//testdata.txt'
     out_file = 'out.txt'
     load_checkpoint = None
 
@@ -503,7 +503,7 @@ def main():
                 logging.debug('wrote checkpoint to %s', filename)
 
             if iter_num % print_every == 0:
-                print("Iter:", iter_num, "/", n_iters)
+                print("Step:", iter_num, "/", n_iters)
                 print_loss_avg = print_loss_total / print_every
                 print_loss_total = 0
                 temptime=time.time() - start

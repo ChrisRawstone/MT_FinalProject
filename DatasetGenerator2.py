@@ -42,7 +42,10 @@ df = df.sort_values(by ='Avg_ARI')
 # create numpy array for both Danish and English sentence columns
 # necessary to get them in proper form of DanishSentence|||EnglishSentence
 
-mask = ((df['Danish'].str.len() < 20) & (df['Danish'].str.len() > 2) & (df['English'].str.len() > 2))
+#Limit sentences:
+CharacterLength=50
+
+mask = ((df['Danish'].str.len() < CharacterLength) & (df['Danish'].str.len() > 2) & (df['English'].str.len() > 2) & (df['English'].str.len() < CharacterLength))
 df = df.loc[mask]
 
 npDan=df["Danish"].to_numpy()
@@ -66,6 +69,6 @@ for sentenceNumber in range(npDan.size):
 
 f.close()
 
-# df.to_csv("danish_english.csv",encoding='utf-8')
+df.to_csv("danish_english.csv",encoding='utf-8')
 
 
