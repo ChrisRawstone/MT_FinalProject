@@ -406,6 +406,8 @@ def main():
                     help='test file. each line should have a source sentence,' +
                          'followed by "|||", followed by a target sentence' +
                          ' (for test, target is ignored)')
+    ap.add_argument('--initial_learning_rate', default=0.001, type=int,
+                    help='initial learning rate')
 
 
     args = ap.parse_args()
@@ -413,8 +415,7 @@ def main():
     hidden_size = args.hidden_size
     n_epochs = args.n_epochs
     print_every = args.print_every
-    checkpoint_every = 10000
-    initial_learning_rate = 0.001
+    initial_learning_rate = args.initial_learning_rate
     src_lang = 'dk'
     tgt_lang = 'en'
     train_file = 'data/traindata.txt'
