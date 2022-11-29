@@ -406,7 +406,7 @@ def main():
                     help='test file. each line should have a source sentence,' +
                          'followed by "|||", followed by a target sentence' +
                          ' (for test, target is ignored)')
-    ap.add_argument('--initial_learning_rate', default=0.001, type=int,
+    ap.add_argument('--initial_learning_rate', default=0.001, type=float,
                     help='initial learning rate')
 
 
