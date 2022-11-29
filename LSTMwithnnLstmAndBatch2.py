@@ -385,7 +385,15 @@ def translate_sentences(encoder, decoder, pairs, src_vocab, tgt_vocab, max_num_s
 # input, target, and output to make some subjective quality judgements:
 #
 
-
+def translate_random_sentence(encoder, decoder, pairs, src_vocab, tgt_vocab, n=1):
+    for i in range(n):
+        pair = random.choice(pairs)
+        print('>', pair[0])
+        print('=', pair[1])
+        output_words, attentions = translate(encoder, decoder, pair[0], src_vocab, tgt_vocab)
+        output_sentence = ' '.join(output_words)
+        print('<', output_sentence)
+        print('')
 
 
 ######################################################################
