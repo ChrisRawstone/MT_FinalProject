@@ -405,18 +405,45 @@ def clean(strx):
 ######################################################################
 
 def main():
-    hidden_size = 256
-    n_iters = 1000
-    print_every = 50
-    checkpoint_every = 10000
-    initial_learning_rate = 0.001
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--hidden_size', default=256, type=int,
+                    help='hidden size of encoder/decoder, also word vector size')
+    ap.add_argument('--n_epochs', default=2, type=int,
+                    help='total number of examples to train on')
+    ap.add_argument('--print_every', default=10, type=int,
+                    help='print loss info every this many training examples')
+    ap.add_argument('--out_file', default='out.txt',
+                    help='output file for test translations')
+    ap.add_argument('--train_file', default='data/traindata.txt',
+                    help='training file. each line should have a source sentence,' +
+                         'followed by "|||", followed by a target sentence')
+    ap.add_argument('--dev_file', default='data/testdata.txt',
+                    help='dev file. each line should have a source sentence,' +
+                         'followed by "|||", followed by a target sentence')
+    ap.add_argument('--test_file', default='data/validationdata.txt',
+                    help='test file. each line should have a source sentence,' +
+                         'followed by "|||", followed by a target sentence' +
+                         ' (for test, target is ignored)')
+    ap.add_argument('--initial_learning_rate', default=0.001, type=float,
+                    help='initial learning rate')
+    ap.add_argument('--batch_size', default=4, type=int,
+                    help='batchsize')
+
+
+    args = ap.parse_args()
+
+    hidden_size = args.hidden_size
+    n_epochs = args.n_epochs
+    print_every = args.print_every
+    initial_learning_rate = args.initial_learning_rate
     src_lang = 'dk'
     tgt_lang = 'en'
-    train_file = 'data//traindata.txt'
-    dev_file = 'data//validationdata.txt'
-    test_file = 'data//testdata.txt'
-    out_file = 'out.txt'
+    train_file = 'data/traindata.txt'
+    dev_file = 'data/validationdata.txt'
+    test_file = 'data/testdata.txt'
+    out_file = args.out_file
     load_checkpoint = None
+    BATCH_SIZE=args.batch_size
 
     # process the training, dev, test files
 
@@ -459,8 +486,8 @@ def main():
     print_loss_total = 0  # Reset every print_every
 
     # Use nn.pad sequence
-    epochnum=2
-    for epoch in range(epochnum):
+
+    for epoch in range(n_epochs):
 
         step=0
         while step + BATCH_SIZE < len(train_pairs):
@@ -481,29 +508,19 @@ def main():
             step+=BATCH_SIZE
 
             batchInput = nn.utils.rnn.pad_sequence(inputList)
-            batchOutput = nn.utils.rnn.pad_sequence(targetList)
+            batchTarget = nn.utils.rnn.pad_sequence(targetList)
             # input_tensor = training_pair[0]
             # target_tensor = training_pair[1]
             # loss = train(input_tensor, target_tensor, encoder,
             #              decoder, optimizer, criterion)
-            loss = train(batchInput, batchOutput, encoder,
+            loss = train(batchInput, batchTarget, encoder,
                          decoder, optimizer, criterion)
             print_loss_total += loss
 
-            if iter_num % checkpoint_every == 0:
-                state = {'iter_num': iter_num,
-                         'enc_state': encoder.state_dict(),
-                         'dec_state': decoder.state_dict(),
-                         'opt_state': optimizer.state_dict(),
-                         'src_vocab': src_vocab,
-                         'tgt_vocab': tgt_vocab,
-                         }
-                filename = 'state_%010d.pt' % iter_num
-                torch.save(state, filename)
-                logging.debug('wrote checkpoint to %s', filename)
 
-            if iter_num % print_every == 0:
-                print("Step:", iter_num, "/", n_iters)
+
+            if step % print_every == 0:
+                print("Iter:", step, "/", len(train_pairs), "Epoch:",epoch)
                 print_loss_avg = print_loss_total / print_every
                 print_loss_total = 0
                 temptime=time.time() - start
