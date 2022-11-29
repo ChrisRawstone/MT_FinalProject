@@ -34,6 +34,8 @@ df["Da_ARI"] = df.apply(lambda row : findcomplexity(row['Danish']), axis = 1)
 df["En_ARI"] = df.apply(lambda row : findcomplexity(row['English']), axis = 1)
 df["Avg_ARI"] = df.apply(lambda row: (row["En_ARI"] + row["Da_ARI"]) / 2, axis = 1)
 
+shuffled = df.sample(frac=1, random_state=1).reset_index()
+
 # sort by average sentence complexity
 df = df.sort_values(by ='Avg_ARI')
 
@@ -57,6 +59,10 @@ for sentenceNumber in range(npDan.size):
     print(npDan[sentenceNumber],"|||", npEng[sentenceNumber])
     # print(npEng[sentenceNumber])
     f.write(f"{npDan[sentenceNumber]}|||{npEng[sentenceNumber]}\n")
+
+# for sentenceNumber in range(shuffled.size):
+#     print(shuffled["Da_ARI"], "|||", shuffled["En_ARI"])
+
 
 f.close()
 

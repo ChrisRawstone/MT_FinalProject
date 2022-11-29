@@ -434,7 +434,7 @@ def main():
     encoder = EncoderRNN(src_vocab.n_words, hidden_size).to(device)
     decoder = AttnDecoderRNN(hidden_size, tgt_vocab.n_words).to(device)
 
-    # encoder/decoder weights are randomly initilized
+    # encoder/decoder weights are randomly initialized
     # if checkpointed, load saved weights
     if load_checkpoint is not None:
         encoder.load_state_dict(state['enc_state'])
@@ -458,81 +458,82 @@ def main():
     start = time.time()
     print_loss_total = 0  # Reset every print_every
 
-    # Use nn.pad sequenec
+    # Use nn.pad sequence
+    epochnum=2
+    for epoch in range(epochnum):
 
-    while iter_num < n_iters:
-        iter_num += 1
-        global firstIteration
-        firstIteration = True
-        inputList = []
-        outputList = []
-        tensors = []
+        step=0
+        while step + BATCH_SIZE < len(train_pairs):
 
-        # training_pair = tensors_from_pair(src_vocab, tgt_vocab, random.choice(train_pairs))
-        for i in range(BATCH_SIZE):
-            tensors.append(tensors_from_pair(src_vocab, tgt_vocab, random.choice(train_pairs)))
-        for i in range(BATCH_SIZE):
-            inputList.append(tensors[i][0])
-            outputList.append(tensors[i][1])
-        batchInput = nn.utils.rnn.pad_sequence(inputList)
-        batchOutput = nn.utils.rnn.pad_sequence(outputList)
-        # input_tensor = training_pair[0]
-        # target_tensor = training_pair[1]
-        # loss = train(input_tensor, target_tensor, encoder,
-        #              decoder, optimizer, criterion)
-        loss = train(batchInput, batchOutput, encoder,
-                     decoder, optimizer, criterion)
-        print_loss_total += loss
+            global firstIteration
+            firstIteration = True
+            inputList = []
+            targetList = []
+            tensors = []
 
-        if iter_num % checkpoint_every == 0:
-            state = {'iter_num': iter_num,
-                     'enc_state': encoder.state_dict(),
-                     'dec_state': decoder.state_dict(),
-                     'opt_state': optimizer.state_dict(),
-                     'src_vocab': src_vocab,
-                     'tgt_vocab': tgt_vocab,
-                     }
-            filename = 'state_%010d.pt' % iter_num
-            torch.save(state, filename)
-            logging.debug('wrote checkpoint to %s', filename)
+            # training_pair = tensors_from_pair(src_vocab, tgt_vocab, random.choice(train_pairs))
+            for i in range(BATCH_SIZE):
+                tensors.append(tensors_from_pair(src_vocab, tgt_vocab, train_pairs[i+step]))
+            for i in range(BATCH_SIZE):
+                inputList.append(tensors[i][0])
+                targetList.append(tensors[i][1])
 
-        if iter_num % print_every == 0:
-            print("Iter:", iter_num, "/", n_iters)
-            print_loss_avg = print_loss_total / print_every
-            print_loss_total = 0
-            temptime=time.time() - start
-            print(f'time since start:{temptime:.2f} s')
-            # translate from the dev set
-            translate_random_sentence(encoder, decoder, dev_pairs, src_vocab, tgt_vocab, n=2)
-            translated_sentences = translate_sentences(encoder, decoder, dev_pairs, src_vocab, tgt_vocab)
+            step+=BATCH_SIZE
 
-            references = [[clean(pair[1]).split(), ] for pair in dev_pairs[:len(translated_sentences)]]
-            candidates = [clean(sent).split() for sent in translated_sentences]
-            dev_bleu = corpus_bleu(references, candidates)
-            print('Dev BLEU score: %.2f', dev_bleu)
-            # logging.info('Dev BLEU score: %.2f', dev_bleu)
+            batchInput = nn.utils.rnn.pad_sequence(inputList)
+            batchOutput = nn.utils.rnn.pad_sequence(targetList)
+            # input_tensor = training_pair[0]
+            # target_tensor = training_pair[1]
+            # loss = train(input_tensor, target_tensor, encoder,
+            #              decoder, optimizer, criterion)
+            loss = train(batchInput, batchOutput, encoder,
+                         decoder, optimizer, criterion)
+            print_loss_total += loss
 
-    # translate test set and write to file
-    translated_sentences = translate_sentences(encoder, decoder, test_pairs, src_vocab, tgt_vocab)
-    with open(out_file, 'wt', encoding='utf-8') as outf:
-        for sent in translated_sentences:
-            outf.write(clean(sent) + '\n')
+            if iter_num % checkpoint_every == 0:
+                state = {'iter_num': iter_num,
+                         'enc_state': encoder.state_dict(),
+                         'dec_state': decoder.state_dict(),
+                         'opt_state': optimizer.state_dict(),
+                         'src_vocab': src_vocab,
+                         'tgt_vocab': tgt_vocab,
+                         }
+                filename = 'state_%010d.pt' % iter_num
+                torch.save(state, filename)
+                logging.debug('wrote checkpoint to %s', filename)
 
-    global axlist
-    fig, ax = plt.subplots(nrows=2, ncols=2)
+            if iter_num % print_every == 0:
+                print("Iter:", iter_num, "/", n_iters)
+                print_loss_avg = print_loss_total / print_every
+                print_loss_total = 0
+                temptime=time.time() - start
+                print(f'time since start:{temptime:.2f} s')
+                # translate from the dev set
+                translate_random_sentence(encoder, decoder, dev_pairs, src_vocab, tgt_vocab, n=2)
+                translated_sentences = translate_sentences(encoder, decoder, dev_pairs, src_vocab, tgt_vocab)
 
-    axlist = [ax[0, 0], ax[1, 0], ax[0, 1], ax[1, 1]]
+                references = [[clean(pair[1]).split(), ] for pair in dev_pairs[:len(translated_sentences)]]
+                candidates = [clean(sent).split() for sent in translated_sentences]
+                dev_bleu = corpus_bleu(references, candidates)
+                print('Dev BLEU score: %.2f', dev_bleu)
+                # logging.info('Dev BLEU score: %.2f', dev_bleu)
 
-    global plotnumber
-    plotnumber = 1
+        # translate test set and write to file
+        translated_sentences = translate_sentences(encoder, decoder, test_pairs, src_vocab, tgt_vocab)
+        with open(out_file, 'wt', encoding='utf-8') as outf:
+            for sent in translated_sentences:
+                outf.write(clean(sent) + '\n')
 
-    # Visualizing Attention
-    translate_and_show_attention("on p@@ eu@@ t me faire confiance .", encoder, decoder, src_vocab, tgt_vocab)
-    translate_and_show_attention("j en suis contente .", encoder, decoder, src_vocab, tgt_vocab)
-    translate_and_show_attention("vous etes tres genti@@ ls .", encoder, decoder, src_vocab, tgt_vocab)
-    translate_and_show_attention("c est mon hero@@ s ", encoder, decoder, src_vocab, tgt_vocab)
+        global axlist
+        fig, ax = plt.subplots(nrows=2, ncols=2)
 
-    plt.show()
+        axlist = [ax[0, 0], ax[1, 0], ax[0, 1], ax[1, 1]]
+
+        global plotnumber
+        plotnumber = 1
+
+
+        plt.show()
 
 
 if __name__ == '__main__':
