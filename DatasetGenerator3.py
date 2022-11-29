@@ -12,17 +12,17 @@ random.seed(0)
 # Read in danish and english sentence pairs (first 10 sentences)
 
 
-danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:30000]
-englishlines = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[0:30000]
+danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:300000]
+englishlines = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[0:300000]
 
 
 
-danishlinestrain = danishlines[0:20000]
-englishlinestrain = englishlines[0:20000]
-danishlinesval = danishlines[20000:22000]
-englishlinesval = englishlines[20000:22000]
-danishlinestest = danishlines[22000:24000]
-englishlinestest = englishlines[22000:24000]
+danishlinestrain = danishlines[0:200000]
+englishlinestrain = englishlines[0:200000]
+danishlinesval = danishlines[200000:220000]
+englishlinesval = englishlines[200000:220000]
+danishlinestest = danishlines[220000:240000]
+englishlinestest = englishlines[220000:240000]
 
 
 
@@ -60,13 +60,13 @@ def apply_functions_and_filterings(df,filename):
     # shuffled = df.sample(frac=1, random_state=1).reset_index()
 
     # sort by average sentence complexity
-    # df = df.sort_values(by ='Avg_ARI')
+    df = df.sort_values(by ='Avg_ARI')
 
     # create numpy array for both Danish and English sentence columns
     # necessary to get them in proper form of DanishSentence|||EnglishSentence
 
     #Limit sentences:
-    CharacterLength = 50
+    CharacterLength = 100
 
     mask = ((df['Danish'].str.len() < CharacterLength) & (df['Danish'].str.len() > 2) & (df['English'].str.len() > 2) & (df['English'].str.len() < CharacterLength))
     df = df.loc[mask]
@@ -93,9 +93,9 @@ def apply_functions_and_filterings(df,filename):
 
 
 
-dftrain=apply_functions_and_filterings(dftrain,"traindataToo")
-dftest=apply_functions_and_filterings(dftest,"testdataToo")
-dfval=apply_functions_and_filterings(dfval,"validationdataToo")
+dftrain=apply_functions_and_filterings(dftrain,"traindata")
+dftest=apply_functions_and_filterings(dftest,"testdata")
+dfval=apply_functions_and_filterings(dfval,"validationdata")
 
 
 # npDan = df[df.Danish.str.len() < 10].to_numpy()
