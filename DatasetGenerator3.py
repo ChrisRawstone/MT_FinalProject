@@ -15,8 +15,7 @@ random.seed(0)
 danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:30000]
 englishlines = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[0:30000]
 
-random.shuffle(danishlines)
-random.shuffle(englishlines)
+
 
 danishlinestrain = danishlines[0:20000]
 englishlinestrain = englishlines[0:20000]
@@ -58,10 +57,10 @@ def apply_functions_and_filterings(df,filename):
     df["En_ARI"] = df.apply(lambda row : findcomplexity(row['English']), axis = 1)
     df["Avg_ARI"] = df.apply(lambda row: (row["En_ARI"] + row["Da_ARI"]) / 2, axis = 1)
 
-    shuffled = df.sample(frac=1, random_state=1).reset_index()
+    # shuffled = df.sample(frac=1, random_state=1).reset_index()
 
     # sort by average sentence complexity
-    df = df.sort_values(by ='Avg_ARI')
+    # df = df.sort_values(by ='Avg_ARI')
 
     # create numpy array for both Danish and English sentence columns
     # necessary to get them in proper form of DanishSentence|||EnglishSentence
@@ -71,9 +70,9 @@ def apply_functions_and_filterings(df,filename):
 
     mask = ((df['Danish'].str.len() < CharacterLength) & (df['Danish'].str.len() > 2) & (df['English'].str.len() > 2) & (df['English'].str.len() < CharacterLength))
     df = df.loc[mask]
+
     df['Danish'] = df['Danish'].str.replace("([^ÆØÅæøåa-zA-Z0-9\\s.,?!])", "")
     df['English'] = df['English'].str.replace("([^ÆØÅæøåa-zA-Z0-9\\s.,?!])", "")
-
 
 
     npDan = df["Danish"].to_numpy()
@@ -82,7 +81,7 @@ def apply_functions_and_filterings(df,filename):
     # Populating the file with correct line separation
     f = open(f"data/{filename}.txt", "w", encoding='utf-8')
     for sentenceNumber in range(npDan.size):
-        print(npDan[sentenceNumber], "|||", npEng[sentenceNumber])
+        # print(npDan[sentenceNumber], "|||", npEng[sentenceNumber])
         # print(npEng[sentenceNumber])
         f.write(f"{npDan[sentenceNumber]}|||{npEng[sentenceNumber]}\n")
 
@@ -91,9 +90,12 @@ def apply_functions_and_filterings(df,filename):
 
     f.close()
 
-dftrain=apply_functions_and_filterings(dftrain,"traindata")
-dftest=apply_functions_and_filterings(dftest,"testdata")
-dfval=apply_functions_and_filterings(dfval,"validationdata")
+
+
+
+dftrain=apply_functions_and_filterings(dftrain,"traindataToo")
+dftest=apply_functions_and_filterings(dftest,"testdataToo")
+dfval=apply_functions_and_filterings(dfval,"validationdataToo")
 
 
 # npDan = df[df.Danish.str.len() < 10].to_numpy()

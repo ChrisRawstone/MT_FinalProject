@@ -390,12 +390,23 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--hidden_size', default=256, type=int,
                     help='hidden size of encoder/decoder, also word vector size')
-    ap.add_argument('--n_epochs', default=100000, type=int,
+    ap.add_argument('--n_epochs', default=2, type=int,
                     help='total number of examples to train on')
     ap.add_argument('--print_every', default=10, type=int,
                     help='print loss info every this many training examples')
     ap.add_argument('--out_file', default='out.txt',
                     help='output file for test translations')
+    ap.add_argument('--train_file', default='data/traindata.txt',
+                    help='training file. each line should have a source sentence,' +
+                         'followed by "|||", followed by a target sentence')
+    ap.add_argument('--dev_file', default='data/testdata.txt',
+                    help='dev file. each line should have a source sentence,' +
+                         'followed by "|||", followed by a target sentence')
+    ap.add_argument('--test_file', default='data/validationdata.txt',
+                    help='test file. each line should have a source sentence,' +
+                         'followed by "|||", followed by a target sentence' +
+                         ' (for test, target is ignored)')
+
 
     args = ap.parse_args()
 
