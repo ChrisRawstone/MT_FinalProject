@@ -385,52 +385,13 @@ def translate_sentences(encoder, decoder, pairs, src_vocab, tgt_vocab, max_num_s
 # input, target, and output to make some subjective quality judgements:
 #
 
-def translate_random_sentence(encoder, decoder, pairs, src_vocab, tgt_vocab, n=1):
-    for i in range(n):
-        pair = random.choice(pairs)
-        print('>', pair[0])
-        print('=', pair[1])
-        output_words, attentions = translate(encoder, decoder, pair[0], src_vocab, tgt_vocab)
-        output_sentence = ' '.join(output_words)
-        print('<', output_sentence)
-        print('')
+
 
 
 ######################################################################
 
-def show_attention(input_sentence, output_words, attentions):
-    """visualize the attention mechanism. And save it to a file.
-    Plots should look roughly like this: https://i.stack.imgur.com/PhtQi.png
-    You plots should include axis labels and a legend.
-    you may want to use matplotlib.
-    """
-
-    "*** YOUR CODE HERE ***"
-
-    npattentions = np.array(attentions)
-
-    global plotnumber, axlist
-
-    axlist[plotnumber - 1].xaxis.tick_top()
-    axlist[plotnumber - 1].xaxis.set_major_locator(ticker.MultipleLocator(1))
-    axlist[plotnumber - 1].yaxis.set_major_locator(ticker.MultipleLocator(1))
-
-    axlist[plotnumber - 1].imshow(npattentions)
-
-    ticklabelx = [''] + input_sentence.split(' ') + ['<end>']
-    ticklabely = [''] + output_words + ['<end>']
-    axlist[plotnumber - 1].set_xticklabels(ticklabelx, rotation=90)
-    axlist[plotnumber - 1].set_yticklabels(ticklabely)
-
-    plotnumber = plotnumber + 1
 
 
-def translate_and_show_attention(input_sentence, encoder1, decoder1, src_vocab, tgt_vocab):
-    output_words, attentions = translate(
-        encoder1, decoder1, input_sentence, src_vocab, tgt_vocab)
-    print('input =', input_sentence)
-    print('output =', ' '.join(output_words))
-    show_attention(input_sentence, output_words, attentions)
 
 
 def clean(strx):
