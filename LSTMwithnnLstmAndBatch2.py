@@ -536,22 +536,13 @@ def main():
                 print('Dev BLEU score: %.2f', dev_bleu)
                 # logging.info('Dev BLEU score: %.2f', dev_bleu)
 
-        # translate test set and write to file
-        translated_sentences = translate_sentences(encoder, decoder, test_pairs, src_vocab, tgt_vocab)
-        with open(out_file, 'wt', encoding='utf-8') as outf:
-            for sent in translated_sentences:
-                outf.write(clean(sent) + '\n')
-
-        global axlist
-        fig, ax = plt.subplots(nrows=2, ncols=2)
-
-        axlist = [ax[0, 0], ax[1, 0], ax[0, 1], ax[1, 1]]
-
-        global plotnumber
-        plotnumber = 1
+    # translate test set and write to file
+    translated_sentences = translate_sentences(encoder, decoder, test_pairs, src_vocab, tgt_vocab)
+    with open(out_file, 'wt', encoding='utf-8') as outf:
+        for sent in translated_sentences:
+            outf.write(clean(sent) + '\n')
 
 
-        plt.show()
 
 
 if __name__ == '__main__':
