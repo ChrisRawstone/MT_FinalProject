@@ -50,7 +50,46 @@ EOS_token = "<EOS>"
 SOS_index = 0
 EOS_index = 1
 MAX_LENGTH = 50
-BATCH_SIZE = 4
+
+
+ap = argparse.ArgumentParser()
+ap.add_argument('--hidden_size', default=256, type=int,
+                help='hidden size of encoder/decoder, also word vector size')
+ap.add_argument('--n_epochs', default=2, type=int,
+                help='total number of examples to train on')
+ap.add_argument('--print_every', default=10, type=int,
+                help='print loss info every this many training examples')
+ap.add_argument('--out_file', default='out.txt',
+                help='output file for test translations')
+ap.add_argument('--train_file', default='data/traindata.txt',
+                help='training file. each line should have a source sentence,' +
+                     'followed by "|||", followed by a target sentence')
+ap.add_argument('--dev_file', default='data/testdata.txt',
+                help='dev file. each line should have a source sentence,' +
+                     'followed by "|||", followed by a target sentence')
+ap.add_argument('--test_file', default='data/validationdata.txt',
+                help='test file. each line should have a source sentence,' +
+                     'followed by "|||", followed by a target sentence' +
+                     ' (for test, target is ignored)')
+ap.add_argument('--initial_learning_rate', default=0.001, type=float,
+                help='initial learning rate')
+ap.add_argument('--batch_size', default=4, type=int,
+                help='batchsize')
+
+args = ap.parse_args()
+
+hidden_size = args.hidden_size
+n_epochs = args.n_epochs
+print_every = args.print_every
+initial_learning_rate = args.initial_learning_rate
+src_lang = 'dk'
+tgt_lang = 'en'
+train_file = 'data/traindata.txt'
+dev_file = 'data/validationdata.txt'
+test_file = 'data/testdata.txt'
+out_file = args.out_file
+load_checkpoint = None
+BATCH_SIZE = args.batch_size
 
 
 class Vocab:
@@ -405,45 +444,7 @@ def clean(strx):
 ######################################################################
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument('--hidden_size', default=256, type=int,
-                    help='hidden size of encoder/decoder, also word vector size')
-    ap.add_argument('--n_epochs', default=2, type=int,
-                    help='total number of examples to train on')
-    ap.add_argument('--print_every', default=10, type=int,
-                    help='print loss info every this many training examples')
-    ap.add_argument('--out_file', default='out.txt',
-                    help='output file for test translations')
-    ap.add_argument('--train_file', default='data/traindata.txt',
-                    help='training file. each line should have a source sentence,' +
-                         'followed by "|||", followed by a target sentence')
-    ap.add_argument('--dev_file', default='data/testdata.txt',
-                    help='dev file. each line should have a source sentence,' +
-                         'followed by "|||", followed by a target sentence')
-    ap.add_argument('--test_file', default='data/validationdata.txt',
-                    help='test file. each line should have a source sentence,' +
-                         'followed by "|||", followed by a target sentence' +
-                         ' (for test, target is ignored)')
-    ap.add_argument('--initial_learning_rate', default=0.001, type=float,
-                    help='initial learning rate')
-    ap.add_argument('--batch_size', default=4, type=int,
-                    help='batchsize')
 
-
-    args = ap.parse_args()
-
-    hidden_size = args.hidden_size
-    n_epochs = args.n_epochs
-    print_every = args.print_every
-    initial_learning_rate = args.initial_learning_rate
-    src_lang = 'dk'
-    tgt_lang = 'en'
-    train_file = 'data/traindata.txt'
-    dev_file = 'data/validationdata.txt'
-    test_file = 'data/testdata.txt'
-    out_file = args.out_file
-    load_checkpoint = None
-    BATCH_SIZE=args.batch_size
 
     # process the training, dev, test files
 
