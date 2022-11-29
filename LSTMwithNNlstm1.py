@@ -50,7 +50,7 @@ EOS_token = "<EOS>"
 
 SOS_index = 0
 EOS_index = 1
-MAX_LENGTH = 45
+MAX_LENGTH = 25
 
 
 class Vocab:

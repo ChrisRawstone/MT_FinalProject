@@ -9,6 +9,8 @@ numberOfSentences=10000
 danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:numberOfSentences]
 englishlines = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[0:numberOfSentences]
 
+
+
 # Create pandas data structure with three columns: idx, danish sentences, english sentences
 d = {"Danish" : danishlines, "English" : englishlines}
 df = pd.DataFrame(d)
