@@ -464,8 +464,8 @@ def main():
 
     totalsteps=len(train_pairs)
     # Use nn.pad sequenec
-    epochnum = 2
-    for epoch in range(epochnum):
+
+    for epoch in range(n_epochs):
 
         step = 0
         while step+1 < totalsteps:
