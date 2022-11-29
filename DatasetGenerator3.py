@@ -7,18 +7,13 @@ random.seed(0)
 
 #Total amount of sentences: 1968800
 
-numberOfSentences=100
+
 
 # Read in danish and english sentence pairs (first 10 sentences)
-# danishlinestrain = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:20000]
-# englishlinestrain = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[0:20000]
-# danishlinesval = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[20000:22000]
-# englishlinesval = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[20000:22000]
-# danishlinestest = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[22000:24000]
-# englishlinestest = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[22000:24000]
 
-danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()
-englishlines = open("europarl-v7en.txt",encoding="utf8").read().splitlines()
+
+danishlines = open("europarl-v7da.txt",encoding="utf8").read().splitlines()[0:30000]
+englishlines = open("europarl-v7en.txt",encoding="utf8").read().splitlines()[0:30000]
 
 random.shuffle(danishlines)
 random.shuffle(englishlines)
@@ -72,13 +67,12 @@ def apply_functions_and_filterings(df,filename):
     # necessary to get them in proper form of DanishSentence|||EnglishSentence
 
     #Limit sentences:
-    CharacterLength=50
+    CharacterLength = 50
 
     mask = ((df['Danish'].str.len() < CharacterLength) & (df['Danish'].str.len() > 2) & (df['English'].str.len() > 2) & (df['English'].str.len() < CharacterLength))
     df = df.loc[mask]
-
-    npDan=df["Danish"].to_numpy()
-    npEng=df["English"].to_numpy()
+    df['Danish'] = df['Danish'].str.extract('([a-zA-Z])')
+    df['English'] = df['English'].str.extract('([a-zA-Z])')
 
     npDan = df["Danish"].to_numpy()
     npEng = df["English"].to_numpy()
@@ -95,9 +89,9 @@ def apply_functions_and_filterings(df,filename):
 
     f.close()
 
-dftrain=apply_functions_and_filterings(dftrain,"traindata")
-dtest=apply_functions_and_filterings(dftest,"testdata")
-dval=apply_functions_and_filterings(dfval,"validationdata")
+# dftrain=apply_functions_and_filterings(dftrain,"traindata")
+dftest=apply_functions_and_filterings(dftest,"testdata")
+# dfval=apply_functions_and_filterings(dfval,"validationdata")
 
 
 # npDan = df[df.Danish.str.len() < 10].to_numpy()

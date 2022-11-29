@@ -387,11 +387,21 @@ def clean(strx):
 ######################################################################
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--hidden_size', default=256, type=int,
+                    help='hidden size of encoder/decoder, also word vector size')
+    ap.add_argument('--n_epochs', default=100000, type=int,
+                    help='total number of examples to train on')
+    ap.add_argument('--print_every', default=5000, type=int,
+                    help='print loss info every this many training examples')
+    ap.add_argument('--out_file', default='out.txt',
+                    help='output file for test translations')
 
+    args = ap.parse_args()
 
-    hidden_size = 256
-    n_iters = 1000
-    print_every = 100
+    hidden_size = args.hidden_size
+    n_epochs = args.n_epochs
+    print_every = args.print_every
     checkpoint_every = 10000
     initial_learning_rate = 0.001
     src_lang = 'dk'
@@ -399,7 +409,7 @@ def main():
     train_file = 'data/traindata.txt'
     dev_file = 'data/validationdata.txt'
     test_file = 'data/testdata.txt'
-    out_file = 'out.txt'
+    out_file = args.out_file
     load_checkpoint = None
 
     # process the training, dev, test files
