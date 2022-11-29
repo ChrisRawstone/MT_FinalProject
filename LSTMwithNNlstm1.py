@@ -392,7 +392,7 @@ def main():
                     help='hidden size of encoder/decoder, also word vector size')
     ap.add_argument('--n_epochs', default=100000, type=int,
                     help='total number of examples to train on')
-    ap.add_argument('--print_every', default=5000, type=int,
+    ap.add_argument('--print_every', default=10, type=int,
                     help='print loss info every this many training examples')
     ap.add_argument('--out_file', default='out.txt',
                     help='output file for test translations')
@@ -451,13 +451,13 @@ def main():
     start = time.time()
     print_loss_total = 0  # Reset every print_every
 
-
+    totalsteps=len(train_pairs)
     # Use nn.pad sequenec
     epochnum = 2
     for epoch in range(epochnum):
 
         step = 0
-        while step+1 < len(train_pairs):
+        while step+1 < totalsteps:
             # selectedTrainPair = random.choice(train_pairs)
             training_pair = tensors_from_pair(src_vocab, tgt_vocab, train_pairs[step])
             step += 1
@@ -478,7 +478,7 @@ def main():
                 logging.info('time since start:%s (iter:%d iter/n_iters:%d%%) loss_avg:%.4f',
                              time.time() - start,
                              step,
-                             step / n_iters * 100,
+                             step / totalsteps * 100,
                              print_loss_avg)
                 # translate from the dev set
                 translate_random_sentence(encoder, decoder, dev_pairs, src_vocab, tgt_vocab, n=2)

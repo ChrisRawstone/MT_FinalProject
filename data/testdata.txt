@@ -1,19 +1,19 @@
-['O', 'm', 'p', 'u', 'n', 'k', 't']|||['B', 'u', 't', 'E', 'u', 'r', 'o', 'p', 'e', 'i', 's', 'c', 'h', 'a', 'n', 'g', 'i', 'n', 'g']
-['V', 'i', 'v', 'i', 'l', 'l', 'e', 'g', 'e', 'r', 'n', 'e', 'k', 'u', 'n', 'n', 'e', 't', 'r', 'o', 'p', 'd', 'e', 't', 'm', 'e', 'n', 'v', 'i', 'k', 'a', 'n', 'i', 'k', 'k', 'e']|||['M', 'r', 'R', 'b', 'i', 'g', 'h', 'a', 's', 't', 'h', 'e', 'f', 'l', 'o', 'o', 'r']
-['J', 'e', 'g', 'e', 'r', 'e', 'n', 'i', 'g', 'm', 'e', 'd', 'h', 'r', 'S', 'c', 'h', 'u', 'l', 'z']|||['A', 'n', 'd', 'w', 'e', 'h', 'a', 'v', 'e', 'g', 'i', 'v', 'e', 'n', 'o', 'u', 'r', 'r', 'e', 'a', 's', 'o', 'n', 's']
-['D', 'e', 't', 'g', 'r', 'i', 'k', 'k', 'e', 'a', 't', 'v', 'i', 'k', 'o', 'n', 's', 't', 'a', 'n', 't', 'h', 'o', 'l', 'd', 'e', 's', 'u', 'n', 'd', 'e', 'r', 'p', 'r', 'e', 's']|||['T', 'h', 'e', 'v', 'o', 't', 'e', 'w', 'i', 'l', 'l', 't', 'a', 'k', 'e', 'p', 'l', 'a', 'c', 'e', 't', 'o', 'm', 'o', 'r', 'r', 'o', 'w', 'a', 't', 'p', 'm']
-['D', 'e', 't', 'e', 'r', 'b', 'r', 'u', 'g', 'f', 'o', 'r', 'h', 'e', 'l', 'i', 'k', 'o', 'p', 't', 'e', 'r', 'e']|||['F', 'i', 'r', 's', 't', 'o', 'f', 'a', 'l', 'l', 't', 'h', 'e', 'r', 'e', 'i', 's', 'n', 'o', 'C', 'o', 'u', 'n', 'c', 'i', 'l', 'd', 'e', 'c', 'i', 's', 'i', 'o', 'n']
-['N', 'u', 'a', 'n', 'g', 'r', 'i', 'b', 'e', 'r', 'm', 'a', 'n', 's', 'j', 'l', 'e', 'n']|||['T', 'h', 'a', 't', 'm', 'e', 's', 's', 'a', 'g', 'e', 'm', 'u', 's', 't', 'b', 'e', 't', 'a', 'k', 'e', 'n', 'b', 'a', 'c', 'k', 'f', 'r', 'o', 'm', 'h', 'e', 'r', 'e', 't', 'o', 'd', 'a', 'y']
-['V', 'i', 'n', 's', 'k', 'e', 'r', 'a', 't', 'E', 'q', 'u', 'a', 'l', 'g', 'e', 'n', 'n', 'e', 'm', 'f', 'r', 'e', 's']|||['T', 'h', 'e', 's', 'i', 't', 't', 'i', 'n', 'g', 'w', 'a', 's', 'c', 'l', 'o', 's', 'e', 'd', 'a', 't', 'p', 'm']
-['S', 'p', 'r', 'g', 's', 'm', 'l', 'n', 'r', 'a', 'f', 'H']|||['Q', 'u', 'i', 't', 'e', 's', 'i', 'm', 'p', 'l', 'y', 't', 'h', 'e', 'r', 'e', 'i', 's', 'n', 'o', 'q', 'u', 'e', 's', 't', 'i', 'o', 'n', 'o', 'f', 't', 'h', 'i', 's']
-['A', 'f', 's', 't', 'e', 'm', 'n', 'i', 'n', 'g', 'e', 'n', 'f', 'i', 'n', 'd', 'e', 'r', 's', 't', 'e', 'd', 'i', 'm', 'o', 'r', 'g', 'e', 'n', 'k', 'l']|||['A', 'n', 'd', 'y', 'e', 't', 'o', 'u', 'r', 'P', 'r', 'e', 's', 'i', 'd', 'e', 'n', 't', 'i', 's', 'a', 'f', 'i', 'n', 'e', 'e', 'c', 'o', 'n', 'o', 'm', 'i', 's', 't']
-['D', 'e', 'b', 'l', 'e', 'v', 'b', 'e', 'h', 'a', 'n', 'd', 'l', 'e', 't', 's', 'o', 'm', 'd', 'e', 'v', 'r', 's', 't', 'e', 'k', 'r', 'i', 'm', 'i', 'n', 'e', 'l', 'l', 'e']|||['N', 'o', 'o', 't', 'h', 'e', 'r', 'M', 'e', 'm', 'b', 'e', 'r', 'S', 't', 'a', 't', 'e', 'i', 's', 'a', 't', 's', 'u', 'c', 'h', 'a', 'd', 'i', 's', 'a', 'd', 'v', 'a', 'n', 't', 'a', 'g', 'e']
-['D', 'y', 'r', 't', 'a', 'g', 'e', 'r', 'p', 'r', 'd', 'e', 'f', 'i', 'n', 'i', 't', 'i', 'o', 'n', 'i', 'k', 'k', 'e', 'p', 'a', 'r', 't', 'i']|||['N', 'A', 'T', 'O', 'i', 's', 'l', 'a', 'r', 'g', 'e', 'l', 'y', 'E', 'u', 'r', 'o', 'p', 'e', 'a', 'n']
-['H', 'e', 'r', 'm', 'e', 'd', 'e', 'r', 's', 'p', 'r', 'g', 'e', 't', 'i', 'd', 'e', 'n', 't', 'i', 'l', 'R', 'd', 'e', 't', 'a', 'f', 's', 'l', 'u', 't', 't', 'e', 't']|||['I', 't', 'w', 'o', 'u', 'l', 'd', 't', 'r', 'u', 'l', 'y', 'p', 'e', 'r', 'p', 'l', 'e', 'x', 'm', 'e']
-['H', 'e', 'r', 't', 'n', 'k', 'e', 'r', 'j', 'e', 'g', 'i', 's', 'r', 'p', 'P', 'S', 'E', 'g', 'r', 'u', 'p', 'p', 'e', 'n']|||['A', 'd', 'j', 'o', 'u', 'r', 'n', 'm', 'e', 'n', 't', 'o', 'f', 't', 'h', 'e', 's', 'e', 's', 's', 'i', 'o', 'n']
-['S', 'p', 'r', 'g', 's', 'm', 'l', 't', 'i', 'l', 'M', 'i', 'c', 'h', 'e', 'l', 'B', 'a', 'r', 'n', 'i', 'e', 'r']|||['T', 'h', 'e', 'p', 'o', 's', 't', 'o', 'f', 'f', 'i', 'c', 'e', 'i', 's', 'd', 'e', 'm', 'o', 'c', 'r', 'a', 'c', 'y']
-['I', 'n', 't', 'e', 't', 'k', 'a', 'n', 'v', 'r', 'e', 'm', 'e', 'r', 'e', 'f', 'o', 'r', 'k', 'e', 'r', 't']|||['W', 'e', 'c', 'a', 'n', 'n', 'o', 't', 'r', 'e', 'n', 'e', 'g', 'o', 't', 'i', 'a', 't', 'e', 't', 'h', 'e', 'a', 'g', 'r', 'e', 'e', 'm', 'e', 'n', 't']
-['V', 'i', 'f', 'a', 's', 't', 'h', 'o', 'l', 'd', 'e', 'r', 'd', 'e', 'n', 'n', 'e', 'v', 'u', 'r', 'd', 'e', 'r', 'i', 'n', 'g']|||['I', 'c', 'a', 'n', 't', 'e', 's', 't', 'i', 'f', 'y', 't', 'o', 't', 'h', 'i', 's', 'r', 'e', 'm', 'a', 'r', 'k', 'a', 'b', 'l', 'e', 'w', 'o', 'r', 'k']
-['I', 'd', 'e', 'n', 'v', 'i', 'd', 'n', 'e', 'r', 'o', 'm', 'n', 'a', 'i', 'v', 'i', 'n', 't', 'e', 'l', 'l', 'e', 'k', 't', 'u', 'a', 'l', 'i', 's', 'm', 'e']|||['C', 'a', 'm', 'b', 'o', 'd', 'i', 'a']
-['F', 'o', 'r', 'h', 'a', 'n', 'd', 'l', 'i', 'n', 'g', 'e', 'n', 'e', 'r', 'a', 'f', 's', 'l', 'u', 't', 't', 'e', 't']|||['I', 't', 'o', 'o', 'w', 'h', 'o', 'l', 'e', 'h', 'e', 'a', 'r', 't', 'e', 'd', 'l', 'y', 'r', 'e', 'g', 'r', 'e', 't', 't', 'h', 'i', 's', 's', 'i', 't', 'u', 'a', 't', 'i', 'o', 'n']
-['D', 'e', 't', 'e', 'r', 'm', 'l', 'e', 't', 'm', 'e', 'd', 'n', 'd', 'r', 'i', 'n', 'g', 's', 'f', 'o', 'r', 's', 'l', 'a', 'g']|||['A', 'p', 'p', 'l', 'a', 'u', 's', 'e']
+Om punkt 3|||But Europe is changing.
+Vi ville gerne kunne tro på det, men vi kan ikke.|||Mr Rbig has the floor.
+Jeg er enig med hr. Schulz.|||And we have given our reasons.
+Det går ikke, at vi konstant holdes under pres.|||The vote will take place tomorrow at 12 p.m.
+Det er brug for helikoptere.|||First of all, there is no Council decision.
+Nu angriber man sjælen.|||That message must be taken back from here today.
+Vi ønsker, at Equal gennemføres.|||The sitting was closed at 7.00 p.m.
+Spørgsmål nr. 43 af H004500|||Quite simply there is no question of this.
+Afstemningen finder sted i morgen kl. 12.00.|||And yet our President is a fine economist.
+De blev behandlet som de værste kriminelle.|||No other Member State is at such a disadvantage.
+Dyr tager pr. definition ikke parti.|||NATO is largely European.
+Hermed er spørgetiden til Rådet afsluttet.|||It would truly perplex me.
+Her tænker jeg især på PSEgruppen.|||Adjournment of the session
+Spørgsmål til Michel Barnier|||The post office is democracy.
+Intet kan være mere forkert!|||We cannot renegotiate the agreement.
+Vi fastholder denne vurdering.|||I can testify to this remarkable work.
+Iden vidner om naiv intellektualisme.|||Cambodia
+Forhandlingen er afsluttet.|||I too wholeheartedly regret this situation.
+Det er målet med ændringsforslag 13.|||Applause

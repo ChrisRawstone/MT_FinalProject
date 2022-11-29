@@ -71,8 +71,10 @@ def apply_functions_and_filterings(df,filename):
 
     mask = ((df['Danish'].str.len() < CharacterLength) & (df['Danish'].str.len() > 2) & (df['English'].str.len() > 2) & (df['English'].str.len() < CharacterLength))
     df = df.loc[mask]
-    df['Danish'] = df['Danish'].str.extract('([a-zA-Z])')
-    df['English'] = df['English'].str.extract('([a-zA-Z])')
+    df['Danish'] = df['Danish'].str.replace("([^ÆØÅæøåa-zA-Z0-9\\s.,?!])", "")
+    df['English'] = df['English'].str.replace("([^ÆØÅæøåa-zA-Z0-9\\s.,?!])", "")
+
+
 
     npDan = df["Danish"].to_numpy()
     npEng = df["English"].to_numpy()
@@ -89,9 +91,9 @@ def apply_functions_and_filterings(df,filename):
 
     f.close()
 
-# dftrain=apply_functions_and_filterings(dftrain,"traindata")
+dftrain=apply_functions_and_filterings(dftrain,"traindata")
 dftest=apply_functions_and_filterings(dftest,"testdata")
-# dfval=apply_functions_and_filterings(dfval,"validationdata")
+dfval=apply_functions_and_filterings(dfval,"validationdata")
 
 
 # npDan = df[df.Danish.str.len() < 10].to_numpy()
