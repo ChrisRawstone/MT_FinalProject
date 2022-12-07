@@ -4,6 +4,10 @@ This is the code behind the paper:
 
 Run the code please use the enviroment that Phillip Koehn has provided in his course.
 
+Please download the europarl corpus that we have extracted to a txt file from here before you try to run this:
+
+https://1drv.ms/u/s!Am4Ha7HFtj7srIkYXQ9hyJ00ii149w?e=9IvAyF
+
 To reproduce our results do the following:
 
 For the batch version using curriculum training do:
