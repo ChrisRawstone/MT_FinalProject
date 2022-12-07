@@ -16,9 +16,9 @@ python LSTMwithnnLstmAndBatch.py --print_every 10000 --batch_size 10 --n_epochs 
 ```
 For the non  batch version using curriculum training do:
 ```
-python LSTMwithNNlstm1.py --print_every 10000 --n_epochs 10 --train_file "data/traindata.txt"  --dev_file  "data/validationdata.txt" --test_file "data/testdata.txt" --out_file "results1"
+python LSTMwithNNlstm.py --print_every 10000 --n_epochs 10 --train_file "data/traindata.txt"  --dev_file  "data/validationdata.txt" --test_file "data/testdata.txt" --out_file "results1"
 ```
 For the non batch version using non curriculum training do:
 ```
-python LSTMwithNNlstm1.py --print_every 10000 --n_epochs 10 --train_file "data/traindataToo.txt"  --dev_file  "data/validationdataToo.txt" --test_file "data/testdataToo.txt" --out_file "results2"
+python LSTMwithNNlstm.py --print_every 10000 --n_epochs 10 --train_file "data/traindataToo.txt"  --dev_file  "data/validationdataToo.txt" --test_file "data/testdataToo.txt" --out_file "results2"
 ```
