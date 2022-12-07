@@ -49,7 +49,7 @@ EOS_token = "<EOS>"
 
 SOS_index = 0
 EOS_index = 1
-MAX_LENGTH = 50
+
 
 
 ap = argparse.ArgumentParser()
@@ -75,9 +75,13 @@ ap.add_argument('--initial_learning_rate', default=0.001, type=float,
                 help='initial learning rate')
 ap.add_argument('--batch_size', default=4, type=int,
                 help='batchsize')
+ap.add_argument('--max_length', default=50, type=int,
+                help='max length of sentence')
 
 args = ap.parse_args()
 
+
+MAX_LENGTH = args.max_length
 hidden_size = args.hidden_size
 n_epochs = args.n_epochs
 print_every = args.print_every
