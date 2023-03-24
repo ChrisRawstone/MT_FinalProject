@@ -2,7 +2,7 @@
 
 This is the code behind the paper:
 
-Run the code please use the enviroment that Phillip Koehn has provided in his course.
+To run the code please use the enviroment that Phillip Koehn has provided in his course.
 
 Please download the europarl corpus that we have extracted to a txt file from here before you try to run this:
 
